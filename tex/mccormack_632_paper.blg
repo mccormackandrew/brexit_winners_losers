@@ -1,0 +1,25 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'mccormack_632_paper.blg'
+[46] biber-darwin:313> INFO - === Mon Nov 19, 2018, 19:57:01
+[84] Biber.pm:371> INFO - Reading 'mccormack_632_paper.bcf'
+[278] Biber.pm:857> INFO - Found 50 citekeys in bib section 0
+[297] Biber.pm:3976> INFO - Processing section 0
+[313] Biber.pm:4136> INFO - Looking for bibtex format file 'political.bib' for section 0
+[321] bibtex.pm:1500> INFO - LaTeX decoding ...
+[639] bibtex.pm:1316> INFO - Found BibTeX data source 'political.bib'
+[649] Utils.pm:193> WARN - Duplicate entry key: 'howe2017eroding' in file 'political.bib', skipping ...
+[649] Utils.pm:193> WARN - Duplicate entry key: 'inglehart2017trump' in file 'political.bib', skipping ...
+[649] Utils.pm:193> WARN - Duplicate entry key: 'anderson2008sensitive' in file 'political.bib', skipping ...
+[653] Utils.pm:193> WARN - Duplicate entry key: 'norris1999critical' in file 'political.bib', skipping ...
+[657] Utils.pm:193> WARN - Duplicate entry key: 'gaure2013ols' in file 'political.bib', skipping ...
+[657] Utils.pm:193> WARN - Duplicate entry key: 'evans2006political' in file 'political.bib', skipping ...
+[889] Utils.pm:193> WARN - Entry 'selyukh2016after' (political.bib): Invalid format '2016-24-6' of date field 'date' - ignoring
+[890] Utils.pm:193> WARN - Entry 'selyukh2016after' (political.bib): Invalid format '2016-24-6' of date field 'urldate' - ignoring
+[1017] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[1018] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1018] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1018] Biber.pm:3804> INFO - Sorting list 'cms/global//global/global' of type 'entry' with template 'cms' and locale 'en-US'
+[1018] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[1083] bbl.pm:617> INFO - Writing 'mccormack_632_paper.bbl' with encoding 'UTF-8'
+[1138] bbl.pm:720> INFO - Output to mccormack_632_paper.bbl
+[1139] Biber.pm:110> INFO - WARNINGS: 8

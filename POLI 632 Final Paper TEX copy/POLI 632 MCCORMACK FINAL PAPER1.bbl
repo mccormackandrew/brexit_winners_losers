@@ -1,0 +1,1826 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global}
+    \entry{anderson2007end}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=65146277e0e3bd0bed709cbb13676c44}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Christopher\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{65146277e0e3bd0bed709cbb13676c44}
+      \strng{fullhash}{65146277e0e3bd0bed709cbb13676c44}
+      \strng{bibnamehash}{65146277e0e3bd0bed709cbb13676c44}
+      \strng{authorbibnamehash}{65146277e0e3bd0bed709cbb13676c44}
+      \strng{authornamehash}{65146277e0e3bd0bed709cbb13676c44}
+      \strng{authorfullhash}{65146277e0e3bd0bed709cbb13676c44}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Political Science}
+      \field{number}{1}
+      \field{title}{The End of Economic Voting? Contingency Dilemmas and the Limits of Democratic Accountability}
+      \field{volume}{10}
+      \field{year}{2007}
+      \field{pages}{271\bibrangedash 296}
+      \range{pages}{26}
+    \endentry
+    \entry{anderson2005losers}{book}{}
+      \name{author}{5}{}{%
+        {{uniquename=0,uniquepart=base,hash=65146277e0e3bd0bed709cbb13676c44}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Christopher\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=99216d3255980177cdfb8c9cc26eb093}{%
+           family={Blais},
+           familyi={B\bibinitperiod},
+           given={Andre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=2c3ec9daa539fa612ef2d50a49e4f5bd}{%
+           family={Bowler},
+           familyi={B\bibinitperiod},
+           given={Shaun},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=866c6251f8a529b9591bad26a3ba7c7e}{%
+           family={Donovan},
+           familyi={D\bibinitperiod},
+           given={Todd},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a647560b19fd87eb2f952995bf4d80fb}{%
+           family={Listhaug},
+           familyi={L\bibinitperiod},
+           given={Ola},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{aadb788dccd1bd8b860e8363985c9870}
+      \strng{fullhash}{d143b00e4c103f0721a61773c6a90bf0}
+      \strng{bibnamehash}{d143b00e4c103f0721a61773c6a90bf0}
+      \strng{authorbibnamehash}{d143b00e4c103f0721a61773c6a90bf0}
+      \strng{authornamehash}{aadb788dccd1bd8b860e8363985c9870}
+      \strng{authorfullhash}{d143b00e4c103f0721a61773c6a90bf0}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Losers' Consent: Elections and Democratic Legitimacy}
+      \field{year}{2007}
+    \endentry
+    \entry{anderson2002winning}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=65146277e0e3bd0bed709cbb13676c44}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Christopher\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=edb479e2f5abf29bfad0590b1f09068e}{%
+           family={LoTempio},
+           familyi={L\bibinitperiod},
+           given={Andrew\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e86b6bad84e7d5b0eab802ad3f9a15ff}
+      \strng{fullhash}{e86b6bad84e7d5b0eab802ad3f9a15ff}
+      \strng{bibnamehash}{e86b6bad84e7d5b0eab802ad3f9a15ff}
+      \strng{authorbibnamehash}{e86b6bad84e7d5b0eab802ad3f9a15ff}
+      \strng{authornamehash}{e86b6bad84e7d5b0eab802ad3f9a15ff}
+      \strng{authorfullhash}{e86b6bad84e7d5b0eab802ad3f9a15ff}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{British Journal of Political Science}
+      \field{number}{2}
+      \field{title}{Winning, Losing and Political Trust in America}
+      \field{volume}{32}
+      \field{year}{2002}
+      \field{pages}{335\bibrangedash 351}
+      \range{pages}{17}
+    \endentry
+    \entry{anderson2008sensitive}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=6be871f819357aa287acacfda4d3e8d3}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Christopher\bibnamedelima J},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a557b4b70e5940341703eefde9d79f79}{%
+           family={Singer},
+           familyi={S\bibinitperiod},
+           given={Matthew\bibnamedelima M},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Sage Publications Sage CA: Los Angeles, CA}%
+      }
+      \strng{namehash}{62f4b8cb30ef97cf5520ab13c3d0774d}
+      \strng{fullhash}{62f4b8cb30ef97cf5520ab13c3d0774d}
+      \strng{bibnamehash}{62f4b8cb30ef97cf5520ab13c3d0774d}
+      \strng{authorbibnamehash}{62f4b8cb30ef97cf5520ab13c3d0774d}
+      \strng{authornamehash}{62f4b8cb30ef97cf5520ab13c3d0774d}
+      \strng{authorfullhash}{62f4b8cb30ef97cf5520ab13c3d0774d}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Comparative Political Studies}
+      \field{number}{4-5}
+      \field{title}{The Sensitive Left and the Impervious Right: Multilevel Models and the Politics of Inequality, Ideology, and Legitimacy in Europe}
+      \field{volume}{41}
+      \field{year}{2008}
+      \field{pages}{564\bibrangedash 599}
+      \range{pages}{36}
+    \endentry
+    \entry{arnesen2017legitimacy}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=cb28815a2c9c67676a6a79c5de3bd638}{%
+           family={Arnesen},
+           familyi={A\bibinitperiod},
+           given={Sveinung},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cb28815a2c9c67676a6a79c5de3bd638}
+      \strng{fullhash}{cb28815a2c9c67676a6a79c5de3bd638}
+      \strng{bibnamehash}{cb28815a2c9c67676a6a79c5de3bd638}
+      \strng{authorbibnamehash}{cb28815a2c9c67676a6a79c5de3bd638}
+      \strng{authornamehash}{cb28815a2c9c67676a6a79c5de3bd638}
+      \strng{authorfullhash}{cb28815a2c9c67676a6a79c5de3bd638}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Political Studies}
+      \field{number}{1}
+      \field{title}{Legitimacy from Decision-Making Influence and Outcome Favourability: Results from General Population Survey Experiments}
+      \field{volume}{65}
+      \field{year}{2017}
+      \field{pages}{146\bibrangedash 161}
+      \range{pages}{16}
+    \endentry
+    \entry{barber2003strong}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b77e8bea52b1400c3d30e4175d986ba4}{%
+           family={Barber},
+           familyi={B\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berkeley}%
+      }
+      \list{publisher}{1}{%
+        {University of California Press}%
+      }
+      \strng{namehash}{b77e8bea52b1400c3d30e4175d986ba4}
+      \strng{fullhash}{b77e8bea52b1400c3d30e4175d986ba4}
+      \strng{bibnamehash}{b77e8bea52b1400c3d30e4175d986ba4}
+      \strng{authorbibnamehash}{b77e8bea52b1400c3d30e4175d986ba4}
+      \strng{authornamehash}{b77e8bea52b1400c3d30e4175d986ba4}
+      \strng{authorfullhash}{b77e8bea52b1400c3d30e4175d986ba4}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Strong Democracy: Participatory Politics For a New Age}
+      \field{year}{1984}
+    \endentry
+    \entry{bartels2002beyond}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=bdceed6cdda928b463043f7e06f8c9c8}{%
+           family={Bartels},
+           familyi={B\bibinitperiod},
+           given={Larry\bibnamedelima M},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bdceed6cdda928b463043f7e06f8c9c8}
+      \strng{fullhash}{bdceed6cdda928b463043f7e06f8c9c8}
+      \strng{bibnamehash}{bdceed6cdda928b463043f7e06f8c9c8}
+      \strng{authorbibnamehash}{bdceed6cdda928b463043f7e06f8c9c8}
+      \strng{authornamehash}{bdceed6cdda928b463043f7e06f8c9c8}
+      \strng{authorfullhash}{bdceed6cdda928b463043f7e06f8c9c8}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Political Behavior}
+      \field{number}{2}
+      \field{title}{Beyond the Running Tally: Partisan Bias in Political Perceptions}
+      \field{volume}{24}
+      \field{year}{2002}
+      \field{pages}{117\bibrangedash 150}
+      \range{pages}{34}
+    \endentry
+    \entry{blais2007winning}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=855bdb9fffbb31353c4dcb4e1e031a48}{%
+           family={Blais},
+           familyi={B\bibinitperiod},
+           given={Andr{é}},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=42c70860079210202464669ac811369b}{%
+           family={G{é}lineau},
+           familyi={G\bibinitperiod},
+           given={Fran{ç}ois},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{2bfee57caeefeba6c0e2f585a50128d5}
+      \strng{fullhash}{2bfee57caeefeba6c0e2f585a50128d5}
+      \strng{bibnamehash}{2bfee57caeefeba6c0e2f585a50128d5}
+      \strng{authorbibnamehash}{2bfee57caeefeba6c0e2f585a50128d5}
+      \strng{authornamehash}{2bfee57caeefeba6c0e2f585a50128d5}
+      \strng{authorfullhash}{2bfee57caeefeba6c0e2f585a50128d5}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Political Studies}
+      \field{number}{2}
+      \field{title}{Winning, Losing and Satisfaction with Democracy}
+      \field{volume}{55}
+      \field{year}{2007}
+      \field{pages}{425\bibrangedash 441}
+      \range{pages}{17}
+    \endentry
+    \entry{blais2017election}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=cf480e291603933d68ddd7f4119686dd}{%
+           family={Blais},
+           familyi={B\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=92fe52bf408e712bd96cc2882a68bfb0}{%
+           family={Morin-Chassé},
+           familyi={M\bibinithyphendelim C\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=e5f2ec3b3f79781f40b1451ad7d6f542}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Shane\bibnamedelima P},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0d1078ec5edfe3d0cf5bf915b72acf07}
+      \strng{fullhash}{0d1078ec5edfe3d0cf5bf915b72acf07}
+      \strng{bibnamehash}{0d1078ec5edfe3d0cf5bf915b72acf07}
+      \strng{authorbibnamehash}{0d1078ec5edfe3d0cf5bf915b72acf07}
+      \strng{authornamehash}{0d1078ec5edfe3d0cf5bf915b72acf07}
+      \strng{authorfullhash}{0d1078ec5edfe3d0cf5bf915b72acf07}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Party Politics}
+      \field{number}{2}
+      \field{title}{Election outcomes, legislative representation, and satisfaction with democracy}
+      \field{volume}{23}
+      \field{year}{2017}
+      \field{pages}{85\bibrangedash 95}
+      \range{pages}{11}
+    \endentry
+    \entry{bowler2002democracy}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=2c3ec9daa539fa612ef2d50a49e4f5bd}{%
+           family={Bowler},
+           familyi={B\bibinitperiod},
+           given={Shaun},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=866c6251f8a529b9591bad26a3ba7c7e}{%
+           family={Donovan},
+           familyi={D\bibinitperiod},
+           given={Todd},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{d28bd5076e2362317842a3f25c53478a}
+      \strng{fullhash}{d28bd5076e2362317842a3f25c53478a}
+      \strng{bibnamehash}{d28bd5076e2362317842a3f25c53478a}
+      \strng{authorbibnamehash}{d28bd5076e2362317842a3f25c53478a}
+      \strng{authornamehash}{d28bd5076e2362317842a3f25c53478a}
+      \strng{authorfullhash}{d28bd5076e2362317842a3f25c53478a}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{British Journal of Political Science}
+      \field{number}{2}
+      \field{title}{Democracy, Institutions and Attitudes about Citizen Influence on Government}
+      \field{volume}{32}
+      \field{year}{2002}
+      \field{pages}{371\bibrangedash 390}
+      \range{pages}{20}
+    \endentry
+    \entry{brambor2005understanding}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=492dda499f5cd335b9b29ecef36efc63}{%
+           family={Brambor},
+           familyi={B\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1d555db7b2c69a1ab796707f80217d2c}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={William\bibnamedelima Roberts},
+           giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=693b6d66b9f651fab786e184c9869676}{%
+           family={Golder},
+           familyi={G\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0194a7285f9daa70e7874a7e15001ce7}
+      \strng{fullhash}{0194a7285f9daa70e7874a7e15001ce7}
+      \strng{bibnamehash}{0194a7285f9daa70e7874a7e15001ce7}
+      \strng{authorbibnamehash}{0194a7285f9daa70e7874a7e15001ce7}
+      \strng{authornamehash}{0194a7285f9daa70e7874a7e15001ce7}
+      \strng{authorfullhash}{0194a7285f9daa70e7874a7e15001ce7}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Political analysis}
+      \field{number}{1}
+      \field{title}{Understanding Interaction Models: Improving Empirical Analyses}
+      \field{volume}{14}
+      \field{year}{2005}
+      \field{pages}{63\bibrangedash 82}
+      \range{pages}{20}
+    \endentry
+    \entry{calhoun2016brexit}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=8b5d5abb259f7e87beba34b5d226d78d}{%
+           family={Calhoun},
+           familyi={C\bibinitperiod},
+           given={Craig},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8b5d5abb259f7e87beba34b5d226d78d}
+      \strng{fullhash}{8b5d5abb259f7e87beba34b5d226d78d}
+      \strng{bibnamehash}{8b5d5abb259f7e87beba34b5d226d78d}
+      \strng{authorbibnamehash}{8b5d5abb259f7e87beba34b5d226d78d}
+      \strng{authornamehash}{8b5d5abb259f7e87beba34b5d226d78d}
+      \strng{authorfullhash}{8b5d5abb259f7e87beba34b5d226d78d}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New Perspectives Quarterly}
+      \field{number}{3}
+      \field{title}{Brexit Is a Mutiny Against the Cosmopolitan Elite}
+      \field{volume}{33}
+      \field{year}{2016}
+      \field{pages}{50\bibrangedash 58}
+      \range{pages}{9}
+    \endentry
+    \entry{theamericanvoter}{book}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=68bb1f4421c64b6768d46af7a3a8795e}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={Angus},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a24e6e5d1139aa1cd2d31461d654ae09}{%
+           family={Converse},
+           familyi={C\bibinitperiod},
+           given={Philip\bibnamedelima E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=8f22e8ff6e2be10b6bc7e6cf7b47d782}{%
+           family={Miller},
+           familyi={M\bibinitperiod}}}%
+        {{uniquename=0,uniquepart=base,hash=1c61bd1b82e33563aefbffed1ec82d17}{%
+           family={Stokes},
+           familyi={S\bibinitperiod},
+           given={Donald\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{6b68610788ee0cfb062b3c0da4aae4a6}
+      \strng{fullhash}{07f795fc4e2fa9dbd7cebc124dfa4e93}
+      \strng{bibnamehash}{07f795fc4e2fa9dbd7cebc124dfa4e93}
+      \strng{authorbibnamehash}{07f795fc4e2fa9dbd7cebc124dfa4e93}
+      \strng{authornamehash}{6b68610788ee0cfb062b3c0da4aae4a6}
+      \strng{authorfullhash}{07f795fc4e2fa9dbd7cebc124dfa4e93}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The American Voter}
+      \field{year}{1960}
+    \endentry
+    \entry{campbell1954voter}{book}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=68bb1f4421c64b6768d46af7a3a8795e}{%
+           family={Campbell},
+           familyi={C\bibinitperiod},
+           given={Angus},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a8bf46db4f3cdfa5804b8986e82ccc2b}{%
+           family={Gurin},
+           familyi={G\bibinitperiod},
+           given={Gerald},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=bda2d3a9cc0d80ba4faee8a1e16db1fe}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Warren\bibnamedelima E.},
+           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Evanston, IL}%
+      }
+      \list{publisher}{2}{%
+        {Row, Peterson}%
+        {Company}%
+      }
+      \strng{namehash}{7de51431e2a8efbb8cb7a8d2aea6f366}
+      \strng{fullhash}{7de51431e2a8efbb8cb7a8d2aea6f366}
+      \strng{bibnamehash}{7de51431e2a8efbb8cb7a8d2aea6f366}
+      \strng{authorbibnamehash}{7de51431e2a8efbb8cb7a8d2aea6f366}
+      \strng{authornamehash}{7de51431e2a8efbb8cb7a8d2aea6f366}
+      \strng{authorfullhash}{7de51431e2a8efbb8cb7a8d2aea6f366}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Voter Decides}
+      \field{year}{1954}
+    \endentry
+    \entry{citrin2018trust}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=3918bf27c6ea3ef4ce7260bddb1fd4c7}{%
+           family={Citrin},
+           familyi={C\bibinitperiod},
+           given={Jack},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f12456e90e52f268d52111c9b9532bde}{%
+           family={Stoker},
+           familyi={S\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1bbfb8214d880e3c790e4e8d6de0d553}
+      \strng{fullhash}{1bbfb8214d880e3c790e4e8d6de0d553}
+      \strng{bibnamehash}{1bbfb8214d880e3c790e4e8d6de0d553}
+      \strng{authorbibnamehash}{1bbfb8214d880e3c790e4e8d6de0d553}
+      \strng{authornamehash}{1bbfb8214d880e3c790e4e8d6de0d553}
+      \strng{authorfullhash}{1bbfb8214d880e3c790e4e8d6de0d553}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Political Science}
+      \field{number}{1}
+      \field{title}{Political Trust in a Cynical Age}
+      \field{volume}{21}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1146/annurev-polisci-050316-092550
+      \endverb
+    \endentry
+    \entry{craig2006winners}{article}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=4ce05ae343c7ee319eb32298d0b1d61c}{%
+           family={Craig},
+           familyi={C\bibinitperiod},
+           given={Stephen\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6ba4d23b8cf708af28a855072031d30d}{%
+           family={Martinez},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=6a69b20e4489e02619a1e830e3ee1287}{%
+           family={Gainous},
+           familyi={G\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=34379420a3936e15ea532aa0fb8423a4}{%
+           family={Kane},
+           familyi={K\bibinitperiod},
+           given={James\bibnamedelima G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c88e075e498e22de3caabe4861790578}
+      \strng{fullhash}{57aa349f3b68c16d9e87069f9845f704}
+      \strng{bibnamehash}{57aa349f3b68c16d9e87069f9845f704}
+      \strng{authorbibnamehash}{57aa349f3b68c16d9e87069f9845f704}
+      \strng{authornamehash}{c88e075e498e22de3caabe4861790578}
+      \strng{authorfullhash}{57aa349f3b68c16d9e87069f9845f704}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Political Research Quarterly}
+      \field{number}{4}
+      \field{title}{Winners, Losers, and Election Context: Voter Responses to the 2000 Presidential Election}
+      \field{volume}{59}
+      \field{year}{2006}
+      \field{pages}{579\bibrangedash 592}
+      \range{pages}{14}
+    \endentry
+    \entry{dalton2001public}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=caf0ac51bd095b9627abe693b1e63018}{%
+           family={Dalton},
+           familyi={D\bibinitperiod},
+           given={Russell\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=27ceca39b25c44806871dac173e6a98b}{%
+           family={Burklin},
+           familyi={B\bibinitperiod},
+           given={Wilhelm\bibnamedelima P},
+           giveni={W\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=03d40f8e81d22a1beacba3b899040c1d}{%
+           family={Drummond},
+           familyi={D\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The Johns Hopkins University Press}%
+      }
+      \strng{namehash}{1a92926dc1c158345c7daa50ee260111}
+      \strng{fullhash}{1a92926dc1c158345c7daa50ee260111}
+      \strng{bibnamehash}{1a92926dc1c158345c7daa50ee260111}
+      \strng{authorbibnamehash}{1a92926dc1c158345c7daa50ee260111}
+      \strng{authornamehash}{1a92926dc1c158345c7daa50ee260111}
+      \strng{authorfullhash}{1a92926dc1c158345c7daa50ee260111}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Democracy}
+      \field{number}{4}
+      \field{title}{Public Opinion and Direct Democracy}
+      \field{volume}{12}
+      \field{year}{2001}
+      \field{pages}{141\bibrangedash 153}
+      \range{pages}{13}
+    \endentry
+    \entry{dyck2009initiated}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=7028b6aa15a1aea979266d1dd3d59fc9}{%
+           family={Dyck},
+           familyi={D\bibinitperiod},
+           given={Joshua\bibnamedelima J},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Sage CA: Los Angeles, CA}%
+      }
+      \strng{namehash}{7028b6aa15a1aea979266d1dd3d59fc9}
+      \strng{fullhash}{7028b6aa15a1aea979266d1dd3d59fc9}
+      \strng{bibnamehash}{7028b6aa15a1aea979266d1dd3d59fc9}
+      \strng{authorbibnamehash}{7028b6aa15a1aea979266d1dd3d59fc9}
+      \strng{authornamehash}{7028b6aa15a1aea979266d1dd3d59fc9}
+      \strng{authorfullhash}{7028b6aa15a1aea979266d1dd3d59fc9}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Politics Research}
+      \field{number}{4}
+      \field{title}{Initiated Distrust: Direct Democracy and Trust in Government}
+      \field{volume}{37}
+      \field{year}{2009}
+      \field{pages}{539\bibrangedash 568}
+      \range{pages}{30}
+    \endentry
+    \entry{dyck2009direct}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=d0caccc6b9e2217fa2098c947a7bc628}{%
+           family={Dyck},
+           familyi={D\bibinitperiod},
+           given={Joshua\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7fb4548df61cc359d564100166e56f47}{%
+           family={Lascher},
+           familyi={L\bibinitperiod},
+           given={Edward\bibnamedelima L.},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{73b03a26842cb92dc4ed620f82adb810}
+      \strng{fullhash}{73b03a26842cb92dc4ed620f82adb810}
+      \strng{bibnamehash}{73b03a26842cb92dc4ed620f82adb810}
+      \strng{authorbibnamehash}{73b03a26842cb92dc4ed620f82adb810}
+      \strng{authornamehash}{73b03a26842cb92dc4ed620f82adb810}
+      \strng{authorfullhash}{73b03a26842cb92dc4ed620f82adb810}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Political Behavior}
+      \field{number}{3}
+      \field{title}{Direct Democracy and Political Efficacy Reconsidered}
+      \field{volume}{31}
+      \field{year}{2009}
+      \field{pages}{401\bibrangedash 427}
+      \range{pages}{27}
+    \endentry
+    \entry{esaiasson2011electoral}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=ae57c12d5e0515f5315f9a479a6c25b2}{%
+           family={Esaiasson},
+           familyi={E\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ae57c12d5e0515f5315f9a479a6c25b2}
+      \strng{fullhash}{ae57c12d5e0515f5315f9a479a6c25b2}
+      \strng{bibnamehash}{ae57c12d5e0515f5315f9a479a6c25b2}
+      \strng{authorbibnamehash}{ae57c12d5e0515f5315f9a479a6c25b2}
+      \strng{authornamehash}{ae57c12d5e0515f5315f9a479a6c25b2}
+      \strng{authorfullhash}{ae57c12d5e0515f5315f9a479a6c25b2}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Electoral Studies}
+      \field{number}{1}
+      \field{title}{Electoral losers revisited – How citizens react to defeat at the ballot box}
+      \field{volume}{30}
+      \field{year}{2011}
+      \field{pages}{102\bibrangedash 113}
+      \range{pages}{12}
+    \endentry
+    \entry{evans2006political}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=f0fb489dc49334c23ac831bf76a6cf67}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Geoffrey},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=76486aa34e206cb9e3d168804039746e}{%
+           family={Andersen},
+           familyi={A\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{db7a724edaa4979a098183d1669478c8}
+      \strng{fullhash}{db7a724edaa4979a098183d1669478c8}
+      \strng{bibnamehash}{db7a724edaa4979a098183d1669478c8}
+      \strng{authorbibnamehash}{db7a724edaa4979a098183d1669478c8}
+      \strng{authornamehash}{db7a724edaa4979a098183d1669478c8}
+      \strng{authorfullhash}{db7a724edaa4979a098183d1669478c8}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Politics}
+      \field{number}{1}
+      \field{title}{The Political Conditioning of Economic Perceptions}
+      \field{volume}{68}
+      \field{year}{2006}
+      \field{pages}{194\bibrangedash 207}
+      \range{pages}{14}
+    \endentry
+    \entry{festinger1957theory}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=d7e5efca6a875019a73c65a23c277f8e}{%
+           family={Festinger},
+           familyi={F\bibinitperiod},
+           given={Leon},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Stanford}%
+      }
+      \list{publisher}{1}{%
+        {Stanford University Press}%
+      }
+      \strng{namehash}{d7e5efca6a875019a73c65a23c277f8e}
+      \strng{fullhash}{d7e5efca6a875019a73c65a23c277f8e}
+      \strng{bibnamehash}{d7e5efca6a875019a73c65a23c277f8e}
+      \strng{authorbibnamehash}{d7e5efca6a875019a73c65a23c277f8e}
+      \strng{authornamehash}{d7e5efca6a875019a73c65a23c277f8e}
+      \strng{authorfullhash}{d7e5efca6a875019a73c65a23c277f8e}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Theory of Cognitive Dissonance}
+      \field{year}{1957}
+    \endentry
+    \entry{bespanel}{misc}{}
+      \name{author}{7}{}{%
+        {{uniquename=0,uniquepart=base,hash=bf34205ade6294f6fa1c3d74db7cfa08}{%
+           family={Fieldhouse},
+           familyi={F\bibinitperiod},
+           given={Ed},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=045ddfa87955accc32625a989ce559a9}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={Jane},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=993b9fb6b5f7bf1a6102d51325ecd600}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Geoff},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3baac86e021cb059570da161e8667adf}{%
+           family={Schmitt},
+           familyi={S\bibinitperiod},
+           given={Hermann},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=3c6c3facfaebcefc71eaf34e64a48413}{%
+           family={Eijk},
+           familyi={E\bibinitperiod},
+           given={Cees},
+           giveni={C\bibinitperiod},
+           givenun=0,
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+           prefixun=0}}%
+        {{uniquename=0,uniquepart=base,hash=34e09ba3eba0ab3893f5a325852ebc43}{%
+           family={Mellon},
+           familyi={M\bibinitperiod},
+           given={Jon},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=00969dfde86487c595a7d08f9de75cfc}{%
+           family={Prosser},
+           familyi={P\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{976efd4e5d1ab633069fcd3059db7ae4}
+      \strng{fullhash}{f39ea9469d35ee3fad98f6ce07565341}
+      \strng{bibnamehash}{f39ea9469d35ee3fad98f6ce07565341}
+      \strng{authorbibnamehash}{f39ea9469d35ee3fad98f6ce07565341}
+      \strng{authornamehash}{976efd4e5d1ab633069fcd3059db7ae4}
+      \strng{authorfullhash}{f39ea9469d35ee3fad98f6ce07565341}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://www.britishelectionstudy.com/data-object/british-election-study-combined-wave-1-13-internet-panel/}}
+      \field{title}{British Election Study Combined Wave 1-13 Internet Panel}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.15127/1.293723
+      \endverb
+    \endentry
+    \entry{finkel1985reciprocal}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=df393ea5b66d88070f2e573779fefc16}{%
+           family={Finkel},
+           familyi={F\bibinitperiod},
+           given={Steven\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{df393ea5b66d88070f2e573779fefc16}
+      \strng{fullhash}{df393ea5b66d88070f2e573779fefc16}
+      \strng{bibnamehash}{df393ea5b66d88070f2e573779fefc16}
+      \strng{authorbibnamehash}{df393ea5b66d88070f2e573779fefc16}
+      \strng{authornamehash}{df393ea5b66d88070f2e573779fefc16}
+      \strng{authorfullhash}{df393ea5b66d88070f2e573779fefc16}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Political Science}
+      \field{title}{Reciprocal Effects of Participation and Political Efficacy: A Panel Analysis}
+      \field{year}{1985}
+      \field{pages}{891\bibrangedash 913}
+      \range{pages}{23}
+    \endentry
+    \entry{hetherington1998political}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=79f6c9dd3038ee8fae62606453f96ac6}{%
+           family={Hetherington},
+           familyi={H\bibinitperiod},
+           given={Marc\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{79f6c9dd3038ee8fae62606453f96ac6}
+      \strng{fullhash}{79f6c9dd3038ee8fae62606453f96ac6}
+      \strng{bibnamehash}{79f6c9dd3038ee8fae62606453f96ac6}
+      \strng{authorbibnamehash}{79f6c9dd3038ee8fae62606453f96ac6}
+      \strng{authornamehash}{79f6c9dd3038ee8fae62606453f96ac6}
+      \strng{authorfullhash}{79f6c9dd3038ee8fae62606453f96ac6}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Political Science Review}
+      \field{number}{4}
+      \field{title}{The Political Relevance of Political Trust}
+      \field{volume}{92}
+      \field{year}{1998}
+      \field{pages}{791\bibrangedash 808}
+      \range{pages}{18}
+    \endentry
+    \entry{hibbing2002stealth}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=0b371dc5ab1978c60205d7feaf426e40}{%
+           family={Hibbing},
+           familyi={H\bibinitperiod},
+           given={John\bibnamedelima R},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5a8508f752fae72f683e0cc58a364e19}{%
+           family={Theiss-Morse},
+           familyi={T\bibinithyphendelim M\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{fe2e4d6fdd3d03db245375b2dc365008}
+      \strng{fullhash}{fe2e4d6fdd3d03db245375b2dc365008}
+      \strng{bibnamehash}{fe2e4d6fdd3d03db245375b2dc365008}
+      \strng{authorbibnamehash}{fe2e4d6fdd3d03db245375b2dc365008}
+      \strng{authornamehash}{fe2e4d6fdd3d03db245375b2dc365008}
+      \strng{authorfullhash}{fe2e4d6fdd3d03db245375b2dc365008}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Stealth Democracy: Americans' Beliefs About How Government Should Work}
+      \field{year}{2002}
+    \endentry
+    \entry{hobolt2016brexit}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=8c007f1d7069fab460208a9caf331fad}{%
+           family={Hobolt},
+           familyi={H\bibinitperiod},
+           given={Sara\bibnamedelima B},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8c007f1d7069fab460208a9caf331fad}
+      \strng{fullhash}{8c007f1d7069fab460208a9caf331fad}
+      \strng{bibnamehash}{8c007f1d7069fab460208a9caf331fad}
+      \strng{authorbibnamehash}{8c007f1d7069fab460208a9caf331fad}
+      \strng{authornamehash}{8c007f1d7069fab460208a9caf331fad}
+      \strng{authorfullhash}{8c007f1d7069fab460208a9caf331fad}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of European Public Policy}
+      \field{number}{9}
+      \field{title}{The Brexit vote: a divided nation, a divided continent}
+      \field{volume}{23}
+      \field{year}{2016}
+      \field{pages}{1259\bibrangedash 1277}
+      \range{pages}{19}
+    \endentry
+    \entry{hobolt2016public}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=8c007f1d7069fab460208a9caf331fad}{%
+           family={Hobolt},
+           familyi={H\bibinitperiod},
+           given={Sara\bibnamedelima B},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=eb0d46cb6e118fb374b2ba4a76c7b6c1}{%
+           family={Vries},
+           familyi={V\bibinitperiod},
+           given={Catherine\bibnamedelima E},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Annual Reviews}%
+      }
+      \strng{namehash}{f88bcfbb54f9eecf7442a05382decda7}
+      \strng{fullhash}{f88bcfbb54f9eecf7442a05382decda7}
+      \strng{bibnamehash}{f88bcfbb54f9eecf7442a05382decda7}
+      \strng{authorbibnamehash}{f88bcfbb54f9eecf7442a05382decda7}
+      \strng{authornamehash}{f88bcfbb54f9eecf7442a05382decda7}
+      \strng{authorfullhash}{f88bcfbb54f9eecf7442a05382decda7}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Political Science}
+      \field{title}{Public Support for European Integration}
+      \field{volume}{19}
+      \field{year}{2016}
+      \field{pages}{413\bibrangedash 432}
+      \range{pages}{20}
+    \endentry
+    \entry{hooghe2016elections}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=ca2db448e5c4e19d3b0da31db7bb4cf9}{%
+           family={Hooghe},
+           familyi={H\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a599a073ee382b7b427acf078f6cadc5}{%
+           family={Stiers},
+           familyi={S\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{547082246587bf38c58aeba57174f45a}
+      \strng{fullhash}{547082246587bf38c58aeba57174f45a}
+      \strng{bibnamehash}{547082246587bf38c58aeba57174f45a}
+      \strng{authorbibnamehash}{547082246587bf38c58aeba57174f45a}
+      \strng{authornamehash}{547082246587bf38c58aeba57174f45a}
+      \strng{authorfullhash}{547082246587bf38c58aeba57174f45a}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Electoral Studies}
+      \field{title}{Elections as a democratic linkage mechanism: How elections boost political trust in a proportional system}
+      \field{volume}{44}
+      \field{year}{2016}
+      \field{pages}{46\bibrangedash 55}
+      \range{pages}{10}
+    \endentry
+    \entry{lane1959why}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=8ee1afe8bc4fe157fc93042fb099b691}{%
+           family={Lane},
+           familyi={L\bibinitperiod},
+           given={Robert\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Glencoe, IL}%
+      }
+      \list{publisher}{1}{%
+        {Free Press}%
+      }
+      \strng{namehash}{8ee1afe8bc4fe157fc93042fb099b691}
+      \strng{fullhash}{8ee1afe8bc4fe157fc93042fb099b691}
+      \strng{bibnamehash}{8ee1afe8bc4fe157fc93042fb099b691}
+      \strng{authorbibnamehash}{8ee1afe8bc4fe157fc93042fb099b691}
+      \strng{authornamehash}{8ee1afe8bc4fe157fc93042fb099b691}
+      \strng{authorfullhash}{8ee1afe8bc4fe157fc93042fb099b691}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Political Life: Why People Get Involved in Politics}
+      \field{year}{1959}
+    \endentry
+    \entry{lewis2013vp}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=d6c2d38da551a8163f338dbc66fb6891}{%
+           family={Lewis-Beck},
+           familyi={L\bibinithyphendelim B\bibinitperiod},
+           given={Michael\bibnamedelima S},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=bc0306b02bf27ee067ff5a12ec8e831b}{%
+           family={Stegmaier},
+           familyi={S\bibinitperiod},
+           given={Mary},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a0bd3a806905252445ec6b3340dd2f14}
+      \strng{fullhash}{a0bd3a806905252445ec6b3340dd2f14}
+      \strng{bibnamehash}{a0bd3a806905252445ec6b3340dd2f14}
+      \strng{authorbibnamehash}{a0bd3a806905252445ec6b3340dd2f14}
+      \strng{authornamehash}{a0bd3a806905252445ec6b3340dd2f14}
+      \strng{authorfullhash}{a0bd3a806905252445ec6b3340dd2f14}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Public Choice}
+      \field{number}{3-4}
+      \field{title}{The VP-function revisited: a survey of the literature on vote and popularity functions after over 40 years}
+      \field{volume}{157}
+      \field{year}{2013}
+      \field{pages}{367\bibrangedash 385}
+      \range{pages}{19}
+    \endentry
+    \entry{linde2003satisfaction}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=030c96886aca56e981a25a455d34272e}{%
+           family={Linde},
+           familyi={L\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=fa7e7994642d84956dd03aff55c7f1d1}{%
+           family={Ekman},
+           familyi={E\bibinitperiod},
+           given={Joakim},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a2afeed8f95461f073d578da466ea83b}
+      \strng{fullhash}{a2afeed8f95461f073d578da466ea83b}
+      \strng{bibnamehash}{a2afeed8f95461f073d578da466ea83b}
+      \strng{authorbibnamehash}{a2afeed8f95461f073d578da466ea83b}
+      \strng{authornamehash}{a2afeed8f95461f073d578da466ea83b}
+      \strng{authorfullhash}{a2afeed8f95461f073d578da466ea83b}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Political Research}
+      \field{number}{3}
+      \field{title}{Satisfaction with democracy: A note on a frequently used indicator in comparative politics}
+      \field{volume}{42}
+      \field{year}{2003}
+      \field{pages}{391\bibrangedash 408}
+      \range{pages}{18}
+    \endentry
+    \entry{marien2017winner}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=9792aa323ba5d578444091740c614cad}{%
+           family={Marien},
+           familyi={M\bibinitperiod},
+           given={Sofie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=7c42d147b8f9fbd7537a2d8c0b0b149b}{%
+           family={Kern},
+           familyi={K\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9d4a0e4e644b07d3d5376014730f01bf}
+      \strng{fullhash}{9d4a0e4e644b07d3d5376014730f01bf}
+      \strng{bibnamehash}{9d4a0e4e644b07d3d5376014730f01bf}
+      \strng{authorbibnamehash}{9d4a0e4e644b07d3d5376014730f01bf}
+      \strng{authornamehash}{9d4a0e4e644b07d3d5376014730f01bf}
+      \strng{authorfullhash}{9d4a0e4e644b07d3d5376014730f01bf}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Political Behavior}
+      \field{title}{The Winner Takes It All: Revisiting the Effect of Direct Democracy on Citizens' Political Support}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1007/s11109-017-9427-3
+      \endverb
+    \endentry
+    \entry{mendelsohn2000effect}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=29c75787d1931436d8f09b8e6251e19e}{%
+           family={Mendelsohn},
+           familyi={M\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=f88aa362969046a8c070cab3baead2b0}{%
+           family={Cutler},
+           familyi={C\bibinitperiod},
+           given={Fred},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{b180a7336b20e2a9b16a50e9fe063900}
+      \strng{fullhash}{b180a7336b20e2a9b16a50e9fe063900}
+      \strng{bibnamehash}{b180a7336b20e2a9b16a50e9fe063900}
+      \strng{authorbibnamehash}{b180a7336b20e2a9b16a50e9fe063900}
+      \strng{authornamehash}{b180a7336b20e2a9b16a50e9fe063900}
+      \strng{authorfullhash}{b180a7336b20e2a9b16a50e9fe063900}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{British Journal of Political Science}
+      \field{number}{4}
+      \field{title}{The Effect of Referendums on Democratic Citizens: Information, Politicization, Efficacy and Tolerance}
+      \field{volume}{30}
+      \field{year}{2000}
+      \field{pages}{669\bibrangedash 698}
+      \range{pages}{30}
+    \endentry
+    \entry{moore2017policy}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=e52853aeb2ba1c7e3ef48385f0619bfd}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Luke},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{e52853aeb2ba1c7e3ef48385f0619bfd}
+      \strng{fullhash}{e52853aeb2ba1c7e3ef48385f0619bfd}
+      \strng{bibnamehash}{e52853aeb2ba1c7e3ef48385f0619bfd}
+      \strng{authorbibnamehash}{e52853aeb2ba1c7e3ef48385f0619bfd}
+      \strng{authornamehash}{e52853aeb2ba1c7e3ef48385f0619bfd}
+      \strng{authorfullhash}{e52853aeb2ba1c7e3ef48385f0619bfd}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Parliamentary Affairs}
+      \field{number}{1}
+      \field{title}{Policy, Office and Cotes: Conservative MPs and the Brexit Referendum}
+      \field{volume}{71}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 27}
+      \range{pages}{27}
+    \endentry
+    \entry{mudde2007populist}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=84d395c33672f5bfb8ecdc038c3ade17}{%
+           family={Mudde},
+           familyi={M\bibinitperiod},
+           given={Cas},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{84d395c33672f5bfb8ecdc038c3ade17}
+      \strng{fullhash}{84d395c33672f5bfb8ecdc038c3ade17}
+      \strng{bibnamehash}{84d395c33672f5bfb8ecdc038c3ade17}
+      \strng{authorbibnamehash}{84d395c33672f5bfb8ecdc038c3ade17}
+      \strng{authornamehash}{84d395c33672f5bfb8ecdc038c3ade17}
+      \strng{authorfullhash}{84d395c33672f5bfb8ecdc038c3ade17}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Populist Radical Right Parties in Europe}
+      \field{year}{2007}
+    \endentry
+    \entry{mutz2006hearing}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b44d0f7d23e62219f5e85bfd74cd9501}{%
+           family={Mutz},
+           familyi={M\bibinitperiod},
+           given={Diana\bibnamedelima C},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{b44d0f7d23e62219f5e85bfd74cd9501}
+      \strng{fullhash}{b44d0f7d23e62219f5e85bfd74cd9501}
+      \strng{bibnamehash}{b44d0f7d23e62219f5e85bfd74cd9501}
+      \strng{authorbibnamehash}{b44d0f7d23e62219f5e85bfd74cd9501}
+      \strng{authornamehash}{b44d0f7d23e62219f5e85bfd74cd9501}
+      \strng{authorfullhash}{b44d0f7d23e62219f5e85bfd74cd9501}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Hearing the other side: Deliberative versus participatory democracy}
+      \field{year}{2006}
+    \endentry
+    \entry{nadeau1993accepting}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=149d9504ba37c452c1d2c8e55c89921e}{%
+           family={Nadeau},
+           familyi={N\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=855bdb9fffbb31353c4dcb4e1e031a48}{%
+           family={Blais},
+           familyi={B\bibinitperiod},
+           given={Andr{é}},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{3c1678f0c0bc7b3aacfd278b9408e9cc}
+      \strng{fullhash}{3c1678f0c0bc7b3aacfd278b9408e9cc}
+      \strng{bibnamehash}{3c1678f0c0bc7b3aacfd278b9408e9cc}
+      \strng{authorbibnamehash}{3c1678f0c0bc7b3aacfd278b9408e9cc}
+      \strng{authornamehash}{3c1678f0c0bc7b3aacfd278b9408e9cc}
+      \strng{authorfullhash}{3c1678f0c0bc7b3aacfd278b9408e9cc}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{British Journal of Political Science}
+      \field{number}{4}
+      \field{title}{Accepting the Election Outcome: The Effect of Participation on Losers' Consent}
+      \field{volume}{23}
+      \field{year}{1993}
+      \field{pages}{553\bibrangedash 563}
+      \range{pages}{11}
+    \endentry
+    \entry{niemi1991winning}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=54f03556f818efd9a2177b460d14c4e9}{%
+           family={Niemi},
+           familyi={N\bibinitperiod},
+           given={Richard\bibnamedelima G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4ce05ae343c7ee319eb32298d0b1d61c}{%
+           family={Craig},
+           familyi={C\bibinitperiod},
+           given={Stephen\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=444daaff5d0c9e9319f7ae3e4d60349c}{%
+           family={Mattei},
+           familyi={M\bibinitperiod},
+           given={Franco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{31bd386cdbb8b926c225e8f9a7aa7c3f}
+      \strng{fullhash}{31bd386cdbb8b926c225e8f9a7aa7c3f}
+      \strng{bibnamehash}{31bd386cdbb8b926c225e8f9a7aa7c3f}
+      \strng{authorbibnamehash}{31bd386cdbb8b926c225e8f9a7aa7c3f}
+      \strng{authornamehash}{31bd386cdbb8b926c225e8f9a7aa7c3f}
+      \strng{authorfullhash}{31bd386cdbb8b926c225e8f9a7aa7c3f}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Political Science Review}
+      \field{number}{4}
+      \field{title}{Winning, Losing and Political Trust in America}
+      \field{volume}{85}
+      \field{year}{1991}
+      \field{pages}{1407\bibrangedash 1413}
+      \range{pages}{7}
+    \endentry
+    \entry{norris1999critical}{book}{}
+      \name{editor}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b1a8a4bd12899795b9c0e41c4a33624d}{%
+           family={Norris},
+           familyi={N\bibinitperiod},
+           given={Pippa},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{b1a8a4bd12899795b9c0e41c4a33624d}
+      \strng{fullhash}{b1a8a4bd12899795b9c0e41c4a33624d}
+      \strng{bibnamehash}{b1a8a4bd12899795b9c0e41c4a33624d}
+      \strng{editorbibnamehash}{b1a8a4bd12899795b9c0e41c4a33624d}
+      \strng{editornamehash}{b1a8a4bd12899795b9c0e41c4a33624d}
+      \strng{editorfullhash}{b1a8a4bd12899795b9c0e41c4a33624d}
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{Critical Citizens: Global Support for Democratic Government}
+      \field{year}{1999}
+    \endentry
+    \entry{pateman1970participation}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=cacd562d21339e1124233532178b4e6a}{%
+           family={Pateman},
+           familyi={P\bibinitperiod},
+           given={Carole},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{cacd562d21339e1124233532178b4e6a}
+      \strng{fullhash}{cacd562d21339e1124233532178b4e6a}
+      \strng{bibnamehash}{cacd562d21339e1124233532178b4e6a}
+      \strng{authorbibnamehash}{cacd562d21339e1124233532178b4e6a}
+      \strng{authornamehash}{cacd562d21339e1124233532178b4e6a}
+      \strng{authorfullhash}{cacd562d21339e1124233532178b4e6a}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Participation and Democratic Theory}
+      \field{year}{1970}
+    \endentry
+    \entry{pharr2000quarter}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=ae7f421835355dcfb82d0ceea5efd158}{%
+           family={Pharr},
+           familyi={P\bibinitperiod},
+           given={Susan\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a7a2ae31a2ea5c25bd4e2478bd952bff}{%
+           family={Putnam},
+           familyi={P\bibinitperiod},
+           given={Robert\bibnamedelima D},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=caf0ac51bd095b9627abe693b1e63018}{%
+           family={Dalton},
+           familyi={D\bibinitperiod},
+           given={Russell\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The Johns Hopkins University Press}%
+      }
+      \strng{namehash}{6b59941227216b1d331c79a58c758966}
+      \strng{fullhash}{6b59941227216b1d331c79a58c758966}
+      \strng{bibnamehash}{6b59941227216b1d331c79a58c758966}
+      \strng{authorbibnamehash}{6b59941227216b1d331c79a58c758966}
+      \strng{authornamehash}{6b59941227216b1d331c79a58c758966}
+      \strng{authorfullhash}{6b59941227216b1d331c79a58c758966}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of democracy}
+      \field{number}{2}
+      \field{title}{A Quarter-Century of Declining Confidence}
+      \field{volume}{11}
+      \field{year}{2000}
+      \field{pages}{5\bibrangedash 25}
+      \range{pages}{21}
+    \endentry
+    \entry{prosser2016calling}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=dcfb8de25251ee94e276549cdefae6dc}{%
+           family={Prosser},
+           familyi={P\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dcfb8de25251ee94e276549cdefae6dc}
+      \strng{fullhash}{dcfb8de25251ee94e276549cdefae6dc}
+      \strng{bibnamehash}{dcfb8de25251ee94e276549cdefae6dc}
+      \strng{authorbibnamehash}{dcfb8de25251ee94e276549cdefae6dc}
+      \strng{authornamehash}{dcfb8de25251ee94e276549cdefae6dc}
+      \strng{authorfullhash}{dcfb8de25251ee94e276549cdefae6dc}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Political Studies}
+      \field{number}{1}
+      \field{title}{Calling European Union Treaty Referendums: Electoral and Institutional Politics}
+      \field{volume}{64}
+      \field{year}{2016}
+      \field{pages}{182\bibrangedash 199}
+      \range{pages}{18}
+    \endentry
+    \entry{qvortrup2006democracy}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=b176276e96261c7501539192f3a30848}{%
+           family={Qvortrup},
+           familyi={Q\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b176276e96261c7501539192f3a30848}
+      \strng{fullhash}{b176276e96261c7501539192f3a30848}
+      \strng{bibnamehash}{b176276e96261c7501539192f3a30848}
+      \strng{authorbibnamehash}{b176276e96261c7501539192f3a30848}
+      \strng{authornamehash}{b176276e96261c7501539192f3a30848}
+      \strng{authorfullhash}{b176276e96261c7501539192f3a30848}
+      \field{sortinit}{Q}
+      \field{sortinithash}{d257e420984a3a5c57a3330114cd646a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Representation}
+      \field{number}{1}
+      \field{title}{Democracy by Delegation: The Decision to Hold Referendums in the United Kingdom}
+      \field{volume}{42}
+      \field{year}{2006}
+      \field{pages}{59\bibrangedash 72}
+      \range{pages}{14}
+    \endentry
+    \entry{sances2015partisanship}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=51ef40128e5111540b44ca6b59303b58}{%
+           family={Sances},
+           familyi={S\bibinitperiod},
+           given={Michael\bibnamedelima W},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=89dbdb519616356c4cf0b476e286a5ce}{%
+           family={Stewart},
+           familyi={S\bibinitperiod},
+           given={Charles\bibnamedelima III},
+           giveni={C\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{1404249cd529538291e53460c6e887b1}
+      \strng{fullhash}{1404249cd529538291e53460c6e887b1}
+      \strng{bibnamehash}{1404249cd529538291e53460c6e887b1}
+      \strng{authorbibnamehash}{1404249cd529538291e53460c6e887b1}
+      \strng{authornamehash}{1404249cd529538291e53460c6e887b1}
+      \strng{authorfullhash}{1404249cd529538291e53460c6e887b1}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Electoral Studies}
+      \field{title}{Partisanship and confidence in the vote count: Evidence from US national elections since 2000}
+      \field{volume}{40}
+      \field{year}{2015}
+      \field{pages}{176\bibrangedash 188}
+      \range{pages}{13}
+    \endentry
+    \entry{selyukh2016after}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=36e42436f77b979d35b04ecca85f25b2}{%
+           family={Selyukh},
+           familyi={S\bibinitperiod},
+           given={Alina},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{36e42436f77b979d35b04ecca85f25b2}
+      \strng{fullhash}{36e42436f77b979d35b04ecca85f25b2}
+      \strng{bibnamehash}{36e42436f77b979d35b04ecca85f25b2}
+      \strng{authorbibnamehash}{36e42436f77b979d35b04ecca85f25b2}
+      \strng{authornamehash}{36e42436f77b979d35b04ecca85f25b2}
+      \strng{authorfullhash}{36e42436f77b979d35b04ecca85f25b2}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{NPR}
+      \field{title}{After Brexit Vote, Britain Asks Google: `What Is The EU?'}
+      \verb{urlraw}
+      \verb https://www.npr.org/sections/alltechconsidered/2016/06/24/480949383/britains-google-searches-for-what-is-the-eu-spike-after-brexit-vote
+      \endverb
+      \verb{url}
+      \verb https://www.npr.org/sections/alltechconsidered/2016/06/24/480949383/britains-google-searches-for-what-is-the-eu-spike-after-brexit-vote
+      \endverb
+      \warn{\item Entry 'selyukh2016after' (/Users/andrewmccormack/Documents/political.bib): Invalid format '2016-24-6' of date field 'date' - ignoring}
+      \warn{\item Entry 'selyukh2016after' (/Users/andrewmccormack/Documents/political.bib): Invalid format '2016-24-6' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{singh2011winning}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=e911b339f8e06ab76766ab884dc48da8}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Shane},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=bbc9b31d0a377b6fb93e15d37e05768e}{%
+           family={Lago},
+           familyi={L\bibinitperiod},
+           given={Ignacio},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=855bdb9fffbb31353c4dcb4e1e031a48}{%
+           family={Blais},
+           familyi={B\bibinitperiod},
+           given={Andr{é}},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c485babaf30d4a08722578485448f0aa}
+      \strng{fullhash}{c485babaf30d4a08722578485448f0aa}
+      \strng{bibnamehash}{c485babaf30d4a08722578485448f0aa}
+      \strng{authorbibnamehash}{c485babaf30d4a08722578485448f0aa}
+      \strng{authornamehash}{c485babaf30d4a08722578485448f0aa}
+      \strng{authorfullhash}{c485babaf30d4a08722578485448f0aa}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Social Science Quarterly}
+      \field{number}{3}
+      \field{title}{Winning and Competitiveness as Determinants of Political Support}
+      \field{volume}{92}
+      \field{year}{2011}
+      \field{pages}{695\bibrangedash 709}
+      \range{pages}{15}
+    \endentry
+    \entry{smith2004educated}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=cc0b2d7b418436dc9feb154a6864b908}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Daniel\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=c7c3da3026d02792cb7a0ec5df57acbd}{%
+           family={Tolbert},
+           familyi={T\bibinitperiod},
+           given={Caroline\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Ann Arbour}%
+      }
+      \list{publisher}{1}{%
+        {University of Michigan Press}%
+      }
+      \strng{namehash}{7f03faf18ee373e2edef7b7e9e91785e}
+      \strng{fullhash}{7f03faf18ee373e2edef7b7e9e91785e}
+      \strng{bibnamehash}{7f03faf18ee373e2edef7b7e9e91785e}
+      \strng{authorbibnamehash}{7f03faf18ee373e2edef7b7e9e91785e}
+      \strng{authornamehash}{7f03faf18ee373e2edef7b7e9e91785e}
+      \strng{authorfullhash}{7f03faf18ee373e2edef7b7e9e91785e}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Educated by Initiative: The Effects of Direct Democracy on Citizens and Political Organizations in the American States}
+      \field{year}{2004}
+    \endentry
+    \entry{webb2013willing}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=ff49c32cd1afc2609f23ac1a5b402d12}{%
+           family={Webb},
+           familyi={W\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{ff49c32cd1afc2609f23ac1a5b402d12}
+      \strng{fullhash}{ff49c32cd1afc2609f23ac1a5b402d12}
+      \strng{bibnamehash}{ff49c32cd1afc2609f23ac1a5b402d12}
+      \strng{authorbibnamehash}{ff49c32cd1afc2609f23ac1a5b402d12}
+      \strng{authornamehash}{ff49c32cd1afc2609f23ac1a5b402d12}
+      \strng{authorfullhash}{ff49c32cd1afc2609f23ac1a5b402d12}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Political Research}
+      \field{number}{6}
+      \field{title}{Who is willing to participate? Dissatisfied democrats, stealth democrats and populists in the United Kingdom}
+      \field{volume}{52}
+      \field{year}{2013}
+      \field{pages}{747\bibrangedash 772}
+      \range{pages}{26}
+    \endentry
+    \entry{wlezien1997economic}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=e552c4297b662e4c4f9c1d2125625d5a}{%
+           family={Wlezien},
+           familyi={W\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=696580ac87be6fe939c01aea864c725c}{%
+           family={Franklin},
+           familyi={F\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=cc73b9f8fc86f950614397f543c2c73d}{%
+           family={Twiggs},
+           familyi={T\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ce8a2bae1138a4bf00df15de935f1b47}
+      \strng{fullhash}{ce8a2bae1138a4bf00df15de935f1b47}
+      \strng{bibnamehash}{ce8a2bae1138a4bf00df15de935f1b47}
+      \strng{authorbibnamehash}{ce8a2bae1138a4bf00df15de935f1b47}
+      \strng{authornamehash}{ce8a2bae1138a4bf00df15de935f1b47}
+      \strng{authorfullhash}{ce8a2bae1138a4bf00df15de935f1b47}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Political Behavior}
+      \field{number}{1}
+      \field{title}{Economic Perceptions and Vote Choice: Disentangling the Endogeneity}
+      \field{volume}{19}
+      \field{year}{1997}
+      \field{pages}{7\bibrangedash 17}
+      \range{pages}{11}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
