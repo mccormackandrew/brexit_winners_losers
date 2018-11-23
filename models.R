@@ -396,3 +396,46 @@ margeff_plot <- ggplot(data = margeff_all, aes(variable_name, y = y,fill = facto
   theme(legend.position = "bottom")
 
 ggsave("tex/margeff_plot.png", margeff_plot)
+
+
+## Appendix tables (that correspond to values in the plot)
+
+app_plot_short <- margeff_all %>%
+  filter(time == "Short-term impact") %>%
+  select(variable, x, lower_bound, y, upper_bound)
+
+cbind(app_plot_short %>%
+      filter(x == 0) %>%
+      select(-x),
+    app_plot_short %>%
+      filter(x == 1) %>%
+      select(-x, -variable)) %>%
+  xtable() %>%
+  print(include.rownames = FALSE)
+
+app_plot_6mo <- margeff_all %>%
+  filter(time == "Six months after") %>%
+  select(variable, x, lower_bound, y, upper_bound)
+
+cbind(app_plot_6mo %>%
+        filter(x == 0) %>%
+        select(-x),
+      app_plot_6mo %>%
+        filter(x == 1) %>%
+        select(-x, -variable)) %>%
+  xtable() %>%
+  print(include.rownames = FALSE)
+
+app_plot_10mo <- margeff_all %>%
+  filter(time == "Ten months after") %>%
+  select(variable, x, lower_bound, y, upper_bound)
+
+cbind(app_plot_10mo %>%
+        filter(x == 0) %>%
+        select(-x),
+      app_plot_10mo %>%
+        filter(x == 1) %>%
+        select(-x, -variable)) %>%
+  xtable() %>%
+  print(include.rownames = FALSE)
+

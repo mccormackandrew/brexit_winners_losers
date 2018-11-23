@@ -137,44 +137,6 @@
       \field{pages}{335\bibrangedash 351}
       \range{pages}{17}
     \endentry
-    \entry{anderson2008sensitive}{article}{}
-      \name{author}{2}{}{%
-        {{uniquename=0,uniquepart=base,hash=6be871f819357aa287acacfda4d3e8d3}{%
-           family={Anderson},
-           familyi={A\bibinitperiod},
-           given={Christopher\bibnamedelima J},
-           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{uniquename=0,uniquepart=base,hash=a557b4b70e5940341703eefde9d79f79}{%
-           family={Singer},
-           familyi={S\bibinitperiod},
-           given={Matthew\bibnamedelima M},
-           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Sage Publications Sage CA: Los Angeles, CA}%
-      }
-      \strng{namehash}{62f4b8cb30ef97cf5520ab13c3d0774d}
-      \strng{fullhash}{62f4b8cb30ef97cf5520ab13c3d0774d}
-      \strng{bibnamehash}{62f4b8cb30ef97cf5520ab13c3d0774d}
-      \strng{authorbibnamehash}{62f4b8cb30ef97cf5520ab13c3d0774d}
-      \strng{authornamehash}{62f4b8cb30ef97cf5520ab13c3d0774d}
-      \strng{authorfullhash}{62f4b8cb30ef97cf5520ab13c3d0774d}
-      \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Comparative Political Studies}
-      \field{number}{4-5}
-      \field{title}{The Sensitive Left and the Impervious Right: Multilevel Models and the Politics of Inequality, Ideology, and Legitimacy in Europe}
-      \field{volume}{41}
-      \field{year}{2008}
-      \field{pages}{564\bibrangedash 599}
-      \range{pages}{36}
-    \endentry
     \entry{arnesen2017legitimacy}{article}{}
       \name{author}{1}{}{%
         {{uniquename=0,uniquepart=base,hash=cb28815a2c9c67676a6a79c5de3bd638}{%
@@ -1093,6 +1055,41 @@
       \field{year}{2016}
       \field{pages}{46\bibrangedash 55}
       \range{pages}{10}
+    \endentry
+    \entry{kahneman1979prospect}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a5d47e416d26a4798085c7e7420a9a01}{%
+           family={Tversky},
+           familyi={T\bibinitperiod},
+           given={Amon},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e0de76799de8c939efe34765053ae41d}
+      \strng{fullhash}{e0de76799de8c939efe34765053ae41d}
+      \strng{bibnamehash}{e0de76799de8c939efe34765053ae41d}
+      \strng{authorbibnamehash}{e0de76799de8c939efe34765053ae41d}
+      \strng{authornamehash}{e0de76799de8c939efe34765053ae41d}
+      \strng{authorfullhash}{e0de76799de8c939efe34765053ae41d}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{2}
+      \field{title}{Prospect Theory: An Analysis of Decision under Risk}
+      \field{volume}{47}
+      \field{year}{1979}
+      \field{pages}{263\bibrangedash 291}
+      \range{pages}{29}
     \endentry
     \entry{lane1959why}{book}{}
       \name{author}{1}{}{%
