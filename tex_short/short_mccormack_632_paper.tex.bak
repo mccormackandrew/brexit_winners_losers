@@ -1,5 +1,5 @@
 \documentclass[12pt, letter]{article}
-\usepackage{nopageno}
+
 \usepackage{amsthm}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -13,21 +13,21 @@
 \usepackage{multirow}
 \usepackage{longtable}
 \usepackage{lscape}
-\usepackage{hyperref}
 \usepackage{rotfloat}
-
+\usepackage[hyphens]{url}
 
 \newcommand\blfootnote[1]{%
   \begingroup
   \renewcommand\thefootnote{}\footnote{#1}%
   \addtocounter{footnote}{-1}%
   \endgroup
-}
+}  
 
 \setlength{\parindent}{6ex}
 \usepackage{titlesec}
-%\titleformat*{\section}{\Large\bfseries}
-%\titleformat*{\subsection}{\normalsize\bfseries}
+
+\titleformat*{\section}{\large\bfseries}
+\titlespacing*{\section}{0pt}{2ex}{1ex}
 
 \font\myfont=cmr12 at 20pt
 \usepackage[english]{babel}
@@ -47,174 +47,52 @@
 
 \begin{document}
 \singlespacing
+\begin{titlepage}
 \maketitle
 
-\begin{abstract}
-
-While a large body of literature has explored the effect of referendums where they are a standard feature of the political system, less attention has been paid to the impact of referendums in contexts where they occur less frequently. What effect, if any, do sporadic yet extremely consequential referendums have on citizens' political attitudes and economic perceptions? In this paper, I examine this question in the context of the Brexit referendum, drawing on the ``winner-loser gap'' literature as a framework for analysis. Using panel data from the British Election Study, I assess the pre- and post-Brexit attitudes and perceptions of the winners (Leave voters) and losers (Remain voters) of the referendum. The analysis suggests that the political attitudes changed most by the Brexit referendum were not those associated with greater citizen engagement in the political process, but rather those linked to whether or not one's desired outcome was achieved. 
-\end{abstract}
+\blfootnote{Data and replication materials for this paper available at \url{https://github.com/mccormackandrew/brexit_winners_losers}.}
+\end{titlepage}
 
 
 
 \section{Introduction}
-\vspace{-20pt}
 \doublespacing
-\blfootnote{Data and replication materials for this paper available at \url{https://github.com/mccormackandrew/brexit_winners_losers}.}
-
-In recent years, increasing attention has been paid to declining political satisfaction and trust throughout the world's advanced industrial democracies \parencite{norris1999critical, citrin2018trust}. While most agree on the general prognosis that large numbers of people are dissatisfied with democracy or democratic government the way it is practiced, there is less agreement on the causes and potential solutions to this dissatisfaction. Some have suggested that alternative forms of participation might improve political attitudes \parencite{finkel1985reciprocal, bowler2002democracy}. According to this view, the shortcomings of representative democracy are central to the problem of political dissatisfaction. Thus, the solution may be in new forms of participation that can engage ordinary citizens.
-
-In this paper, I focus on one such form of alternative participation: the referendum. I examine the impact of the United Kingdom’s 2016 European Union membership referendum on a number of relevant political attitudes as well as perceptions of economic performance. Using panel data from the British Election Study \parencite{bespanel}, I examine the pre- and post-Brexit attitudes and evaluations of the winners and losers of the referendum (that is, those who voted for and against withdrawal from the European Union). With multiple waves of the panel administered both before and after Brexit, I am able to assess the immediate changes associated with Brexit as well as the persistence of these changes six and ten months after the decision. Studies of referendums are often framed in theories of participatory democracy, which claim that the regular practice of direct democracy stimulates political learning in addition to fostering efficacy and engagement. This perspective may be less suited to a national context where referendums are not a regular feature of political decision-making. 
-
-I expect the impact of Brexit on political attitudes to be linked more to outcome favourability \parencite{marien2017winner}---that is, casting a ballot for the winning or losing side of the Brexit referendum. While the ``winner-loser gap'' in regular elections has been well documented \parencite{anderson2005losers}, less attention has been paid to the context of direct democracy. I will also move beyond political attitudes and examine Brexit's impact on economic perceptions. While the literature on the winner-loser gap has found that outcome favourability has positive effects on individuals' evaluations of the performance of democratic leaders and institutions \parencite{singh2011winning}, less attention has been paid to its impact on economic evaluations. A number of works in the economic voting literature address the endogeneity of economic evaluations with respect to vote choice, claiming that partisans tend to form economic evaluations that are consistent with their previously held beliefs \parencite{anderson2007end, evans2006political, wlezien1997economic}. I extend this rationale by looking at the consequences of vote choice in the Brexit referendum for economic perceptions. 
-
-
-I find that pre- and post-Brexit attitudes among the winners (Leavers) and losers (Remainers) of the referendum diverge in a number of important ways. For instance, satisfaction with democracy increased for winners and decreased for losers following the referendum. My results  demonstrate little support for participatory theories of democracy in that Brexit had little impact on standard measures of internal and external efficacy. In addition to political attitudes, I find evidence of a winner-loser effect with respect to national economic evaluations, with losers markedly more apprehensive than winners about where the nation’s economy was headed. Lastly, the most striking differential effects relate to perceptions of the fairness of the referendum itself---winners became distinctly more confident in the process whereas the opposite pattern emerges for losers. Consistent with the literature on the ``winner-loser gap'', this paper demonstrates that when political elites let the people decide on important issues directly, the strongest attitudinal consequences will likely stem from outcome favourability.
-
-
+While a large body of literature has explored the effect of referendums where they are a standard feature of the political system, less attention has been paid to the impact of referendums in contexts where they occur less frequently. What effect, if any, do sporadic yet extremely consequential referendums have on citizens' political attitudes and economic perceptions? In this paper, I examine this question in the context of the Brexit referendum, drawing on the ``winner-loser gap'' literature as a framework for analysis. Using panel data from the British Election Study, I assess the pre- and post-Brexit attitudes and perceptions of the winners (Leave voters) and losers (Remain voters) of the referendum. The analysis suggests that the political attitudes changed most by the Brexit referendum were not those associated with greater citizen engagement in the political process, but rather those linked to whether or not one's desired outcome was achieved. 
 
 
 
 \singlespacing
 \section{Background}
-\subsection{Political Attitudes and Direct Democracy}
 \doublespacing
 
-According to \textcite{pharr2000quarter}, waning democratic confidence is an indication that representative institutions are falling short of citizens' expectations. Among those who view the shortcomings of representative democracy as central to the problem of political dissatisfaction, some have suggested more direct forms of democratic decision-making as a potential solution. For example, \textcite[149]{dalton2001public} note that ``[w]hen levels of public confidence in the basic elements of the party system---such as trust in political parties and politicians---are low, a more populist base of political legitimacy may stimulate new trust in the system.'' At the same time, the authors acknowledge the potential drawbacks of direct democracy: reducing complex issues to simple yes or no questions, overstating the ability of citizens to perform in an expanded democratic role, and potentially exacerbating nativist and populist tendencies. Nonetheless, the notion that increasing the scope of democratic participation can stimulate more positive attitudes toward the political system has a long tradition in democratic theory. 
+In recent years, increasing attention has been paid to declining political satisfaction and trust throughout the world's advanced industrial democracies \parencite{norris1999critical, pharr2000quarter}. Though there is a fair amount of disagreement on the causes and potential solutions to this dissatisfaction, some have suggested that alternative forms of participation might improve political attitudes \parencite{finkel1985reciprocal, bowler2002democracy}. According to this view, the shortcomings of representative democracy are central to the problem of political dissatisfaction. Indeed, the notion that increasing the scope of democratic participation can stimulate more positive attitudes toward the political system has a long tradition in democratic theory \parencite{pateman1970participation, barber2003strong}.
 
-As \textcite[540]{dyck2009initiated} notes, research in political science, ``both theoretically and empirically, has been extraordinarily supportive of this notion that citizens get a lesson in good participatory civics through exposure to direct democracy.'' Indeed, participatory democratic theorists suggest that democratic participation is not just an end in itself---in terms of producing political outcomes more in line with what the public desires---but also serves an educative role that develops civic virtues and promotes a greater sense of internal efficacy \parencite{pateman1970participation}. Participatory, or ``strong'' democracy, as \textcite[152]{barber2003strong} terms it, foster the conditions under which ``[p]olitics becomes its own university, citizenship its own training ground, and participation its own tutor.'' Enthusiasm for participatory democracy is not universal, however. In contrast to participatory democrats, there are those who argue that people do not actually want to make political decisions themselves, that they are not interested in providing much input to those who make these decisions, and that they would rather not know the details of the decision making process \parencite{hibbing2002stealth}. Similarly, people may be turned off by the high-intensity of political differences brought out by deliberation, which could dampen their participatory impulses \parencite{mutz2006hearing}. Despite these divergent perspectives, participatory democracy has gained interest among both policymakers and political scientists \parencite{webb2013willing}. 
+Empirical work on the impact of direct democracy on political attitudes has yielded mixed results \parencite{mendelsohn2000effect, bowler2002democracy, smith2004educated, dyck2009direct}, which is not entirely surprising given the diversity of methodological approaches used to test these phenomena and the varied nature of direct democracy between studies. Some works examine national or sub-national contexts where direct democracy is common practice while others consider the impact of single referendums in contexts where instruments of direct democracy are not as common. 
 
-Empirical work on the impact of direct democracy on political attitudes has yielded mixed results. For example, \textcite{mendelsohn2000effect} find slight improvements in political knowledge and efficacy associated with the 1992 referendum on the Charlottetown Constitutional Accord in Canada. In light of this modest impact, they argue that,  ``if referendums are to offer substantial increases in politicization, efficacy and political knowledge, these consultations probably need to occur on a more regular basis, be more fully institutionalized, be part of a broader process of citizen participation, and occur in situations where there is a genuineness of purpose amongst political elites'' (698). Along these lines, \textcite{bowler2002democracy} find that individuals living in US states that use more initiatives tend to look more favourably on the responsiveness of government. Similarly, \textcite{smith2004educated} find that the frequency of initiative use in US states is associated with greater external efficacy as well as increases in political interest and knowledge. However, not everyone agrees with this assessement. \textcite{dyck2009direct}, for example, argue that, instead of bringing alienated citizens back into the fold, direct democracy widens the participation gap. Using multiple sources of survey data from the US, the authors find that the use of direct democracy is associated with greater political efficacy among only the most informed voters, whereas it actually decreases the efficacy of less-informed non-voters. The authors argue that their analysis ``underscores the need to question claims about how the mere presence of the ballot initiative process, or the number of ballot measures, influences the way citizens evaluate the functioning of their democracy'' (422). 
+Brexit is clearly an example of the latter. With this in mind, the theoretical framework provided by theories of participatory democracy, which tend to emphasize the sustained and institutionalized practice of direct democracy, may be less applicable in a context where referendums are not a standard feature of the political process. In this context, \textit{outcome favourability}---that is, casting a ballot for the winning or losing side of the Brexit referendum---may be a more fruitful analytical perspective for understanding the short-term effects of referendums \parencite{marien2017winner}. 
 
-It is not entirely surprising that the findings on direct democracy and political participation are mixed. First, associations between these two phenomena are tested with a variety of methodological approaches, including cross-sectional \parencite{bowler2002democracy}, rolling cross-sectional \parencite{mendelsohn2000effect}, and panel data \parencite{marien2017winner}. Second, the nature of direct democracy differs between studies; some works examine national or sub-national contexts where direct democracy is common practice (e.g. US states in which ballot initiatives are used frequently) while others consider the impact of single referendums in contexts where instruments of direct democracy are not as common (e.g. the Charlottetown Accord in Canada). 
+A growing body of literature on the ``winner-loser gap'' argues that outcome favourability has an often overlooked importance in contemporary debates about democratic satisfaction and performance, yet is critical to understanding the perceived legitimacy of and support for democratic procedures \parencite{blais2007winning}. For instance, \textcite{anderson2005losers} argue that the winner-loser gap  ``involves the question of the extent to which citizen attitudes toward democratic reality, and by implication the potential for protest, unrest, or even a collapse of the political system are affected by the consequences of the most routine of democratic mechanisms'' (47). 
 
-Brexit is clearly an example of the latter. With this in mind, the theoretical framework provided by theories of participatory democracy, which tend to emphasize the sustained and institutionalized practice of direct democracy, may be less applicable in a context where referendums are not a standard feature of the political process. For this reason, I will follow the approach taken by \textcite{marien2017winner}, who argue that \textit{outcome favourability} is critical to understanding the short-term effects of referendums. 
+The literature on the winner-loser gap is to a certain degree at odds with theories of electoral legitimacy in which the procedural fairness (hopefully) associated with elections, rather than favourable outcomes, is expected to increase democratic legitimacy \parencite{hooghe2016elections}. 
+According to the latter approach, elections are seen as legitimizing institutions in which citizens have a chance to express their views, participate in the political process, and hold their leaders accountable. At the same time, it is likely that the perceived legitimacy of elections is coloured by the experience of winning or losing \parencite{nadeau1993accepting}.
 
-\singlespacing
-\subsection{The Winner-Loser Gap}
-\subsubsection{Winning, losing, and satisfaction with democracy}
-\doublespacing
+Lastly, while literature on the winner-loser gap has found that outcome favourability has positive effects on individuals' evaluations of the performance of democratic leaders and institutions \parencite{singh2011winning}, less attention has been paid to its impact on economic evaluations. A number of works in the economic voting literature address the endogeneity of economic evaluations with respect to vote choice, claiming that partisans tend to form economic evaluations that are consistent with their previously held beliefs \parencite{anderson2007end, evans2006political, wlezien1997economic}. I extend this rationale to the winner-loser gap, exploring the consequences of vote choice in the Brexit referendum for economic perceptions.
 
-While it is fairly obvious that electoral losers will be less satisfied than winners with the outcome of a given election, a growing body of literature on the ``winner-loser gap'' argues that the consequences stretch further than this. For example, \textcite{blais2007winning} argue that the winner-loser gap is critical to understanding the perceived legitimacy of and support for democratic procedures. The authors find that, all else equal, satisfaction with democracy increased more among the winners---i.e., those who voted for the winning candidate and party in the election---than among the losers of the 1997 Canadian federal election. In a similar manner, \textcite{anderson2002winning}, using pre-- and post--election panel data from the 1972 and 1996 US presidential elections, find that those who voted for the winning candidate---either presidential or both congressional and presidential---had significantly higher levels of trust in government than those who voted for the losing candidate. Indeed, a cross-national analysis of several European countries by \textcite{anderson2005losers} found that political losers tend to hold more negative attitudes toward the political system, are less likely to think that elections are fair, and look less favourably on the performance and responsiveness of the government. The authors argue that this particular element of elections (winning and losing) has an often overlooked importance in contemporary debates about democratic satisfaction and performance. Indeed, the winner-loser gap ``involves the question of the extent to which citizen attitudes toward democratic reality, and by implication the potential for protest, unrest, or even a collapse of the political system are affected by the consequences of the most routine of democratic mechanisms'' (47). 
+Before describing my empirical strategy and presenting the results of my analysis, it is necessary to spell out some basic concepts. In both the participatory democracy and winner-loser gap literature, a variety of attitudes associated with political alienation have been linked to direct democracy as well as winning (or losing) an election, the most frequent being political efficacy, political trust, democratic satisfaction, and perceptions of fairness and legitimacy. While there is considerable overlap between these concepts, they are to some extent empirically and conceptually distinct. Political efficacy refers to both internal efficacy---that is, the extent which an individual feels that their actions can have an impact on the political process \parencite{campbell1954voter}---and external efficacy---the perceived responsiveness of political elites and institutions to citizens' demands \parencite{lane1959why, niemi1991winning}. Satisfaction with democracy is a disputed concept \parencite{linde2003satisfaction}, though ``is generally thought of as an expression of approval of regime performance located between diffuse notions of support for democratic principles and specific attitudes toward political actors'' \parencite[86]{blais2017election}. Scholars have construed political trust as an aspect of legitimacy, or a basic evaluative orientation toward government based on how well the government lives up to individuals' normative expectations \parencite{hetherington1998political, citrin2018trust}. \footnote{For some, measures of political trust are more likely to tap into attitudes toward the basic principles of the democratic system and its governing rules. From this perspective, \textcite[48]{hooghe2016elections} stress that ``it is important one does not just focus on satisfaction with current officeholders, but that one should also pay attention to the basic value of political trust in the system.''}
 
-\singlespacing
-\subsubsection{Explaining the winner-loser effect}
-\doublespacing
-
-\textcite{anderson2005losers} draw on three theoretical perspectives to explain where and how ambivalent reactions to losing an election originate: utility maximization, emotional responses, and cognitive consistency. The underlying assumption of the utilitarian perspective is simply that people prefer winning to losing, and that the experienced and expected utility of winning should be higher than that of losing \parencite{kahneman1979prospect}. Moreover, it is likely that winning and losing provoke emotional responses in which winning leads to euphoria while losing leads to anger and disillusionment. As \textcite[697]{singh2011winning} note, ``the base emotion of experiencing victory and the satisfaction of being a part of the political majority are enough to lead one to express heightened support for democracy.''  Lastly, voters may experience inconsistencies among their beliefs and attitudes in response to losing an election. To restore consistency, people can either change their attitudes or they can change their behaviour \parencite{festinger1957theory}. In the context of elections, ``the vote choice [behaviour] is not altered as easily as the attitude about how the political system is performing or whether government can be trusted---after all, voting happens only every few years, whereas attitudes can be updated any time'' \parencite[27]{anderson2005losers}. This seems especially relevant with respect to referendums in the UK, which are held far less frequently than conventional elections. 
-
-
-\singlespacing
-\subsubsection{Winning, losing, and perceptions of fairness}
-\doublespacing
-
-
-The literature on the winner-loser gap is to a certain degree at odds with theories of electoral legitimacy in which the procedural fairness (hopefully) associated with elections, rather than favourable outcomes, is expected to increase democratic legitimacy \parencite{hooghe2016elections}. According to the latter approach, elections are seen as legitimizing institutions in which citizens have a chance to express their views, participate in the political process, and hold their leaders accountable. In this vein, \textcite{esaiasson2011electoral} argues that, although winning and losing creates differential incentives with respect to citizens' support of the political system, losers retain their support for the system if elections are reasonably well executed. At the same time, it is likely that the perceived legitimacy of elections is coloured by the experience of winning or losing. For example, \textcite{nadeau1993accepting} argue that, while participation enhanced diffuse support among the losers of the 1988 Canadian federal election, ``the most powerful source of consent to the election outcome is winning the election.'' 
-
-\singlespacing
-\subsubsection{Winning, losing, and economic evaluations}
-\doublespacing
-
-Lastly, winning and losing may be associated with economic evaluations. The winner-loser gap literature has paid little attention to the impact of outcome favourability on economic attitudes. Works in economic voting have found that the causal effects attributed to economic evaluations with respect to vote choice in many economic voting models are to a large degree endogenous to the vote choice itself \parencite{wlezien1997economic}. Indeed, it has long been acknowledge that party identification ``raises a perceptual screen through which the individual tends to see what is favourable to his partisan orientation'' \parencite{theamericanvoter}. With respect to economic evaluations, \textcite{bartels2002beyond} finds that perceptions of objective indicators such as inflation, unemployment, and the size of the federal budget deficit in the US are strongly coloured by partisan predisposition. More bluntly, \textcite[280]{anderson2007end} notes that 
-``citizens are likely to systematically misjudge the state of the economy even when it is presented to them on a silver platter.'' Much like the link between cognitive consistency and evaluations of democratic performance as well as electoral legitimacy and fairness posited in the winner-loser gap literature, individuals may perceive the economy to be different from what it actually is in order to maintain consistency with their previously held beliefs. While most of the economic literature has explored this with respect to party identification, I believe that a similar process might be at play with respect to partisans of the Leave and Remain sides of the Brexit referendum. That is, because Leave voters were optimistic about the economic effect of the UK's withdrawal from the EU, they may maintain these beliefs despite evidence to the contrary following the Brexit decision. 
-
-\singlespacing
-\subsection{Facets of Political Attitudes: Efficacy, Trust, Satisfaction with Democracy, and Legitimacy}
-\doublespacing
-
-In both the participatory democracy and winner-loser gap literature, a variety of attitudes associated with political alienation have been linked to direct democracy as well as winning (or losing) an election, the most frequent being political efficacy, political trust, democratic satisfaction, and perceptions of fairness and legitimacy. While there is considerable overlap between these concepts---for example, someone who feels that politicians are unresponsive is likely to have little trust in and satisfaction with the political system, which may translate into negative evaluations in terms of legitimacy---they are to some extent empirically and conceptually distinct. For this reason, it is necessary to spell out each of these attitudes.
-
-The concept of political efficacy can be traced back to \textcite[187]{campbell1954voter}, who define it as ``the feeling that individual political action does have, or can have, an impact upon the political process ... the feeling that political and social change is possible, and that the individual citizen can play a part in bringing about this change.'' \textcite{lane1959why} further refined the notion of efficacy into internal and external components, with internal efficacy referring to an individual's capacity to understand and influence politics and external efficacy referring to the perceived responsiveness of political elites and institutions to citizens' demands \parencite{niemi1991winning}.
-
-Questions measuring citizens' satisfaction with the way democracy works in their country have an almost ubiquitous presence in public opinion surveys. While some scholars use this survey item as an indicator of generalized support for the democratic systems itself, \textcite{linde2003satisfaction} argue that it is better understood as a measure of how the democratic system works in practice. Although it is a disputed concept, satisfaction with democracy ``is generally thought of as an expression of approval of regime performance located between diffuse notions of support for democratic principles and specific attitudes toward political actors'' \parencite[86]{blais2017election}.
-
-Scholars have construed political trust as an aspect of legitimacy, or a basic evaluative orientation toward government based on how well the government lives up to individuals' normative expectations \parencite{hetherington1998political, citrin2018trust}. For some, measures of political trust are more likely to tap into attitudes toward the basic principles of the democratic system and its governing rules. From this perspective, \textcite[48]{hooghe2016elections} stress that ``it is important one does not just focus on satisfaction with current officeholders, but that one should also pay attention to the basic value of political trust in the system.''
+In sum, while the impact of winning or losing a referendum on political attitudes has received a fair amount of attention in conventional elections, less attention has been paid to the context of referendums. For this reason, I extend the theoretical framework of the winner-loser gap to the Brexit referendum. 
 
 \singlespacing
 \section{Expectations}
 \doublespacing
 
-As mentioned above, the impact of winning or losing a referendum on political attitudes has received little attention in the existing literature despite a large body of literature on the winner-loser gap in conventional elections. With this in mind, I will examine the impact of the Brexit referendum on political attitudes. There is good reason to believe that Brexit might produce winner-loser effects similar to those found in conventional elections---it was a highly salient referendum, evidenced by a relatively high turnout (71\%) and intense campaigning on both sides \parencite{hobolt2016brexit}. Moreover, given Britain's limited use of referendums, the winner-loser gap may be a more profitable vantage point from which to assess the attitudinal impact of Brexit, as opposed to countries and sub-national units where direct democracy is more firmly institutionalized, such as Switzerland or US states like California. Indeed, though their use has grown, referendums are held relatively infrequently in the UK.\footnote{The most recent examples are the North-east England devolution referendum in 2004 on whether or not to establish an elected assembly for the region, the Northern Ireland Good Friday Agreement in 1998, the London referendum in 1998 on whether there should be a Mayor of London and the Greater London Authority, the Wales referendum in 1997 on whether there should be a Welsh Assembly, and the Scotland Referendum in 1997 on whether there should be a Scottish Parliament \parencite{qvortrup2006democracy}.} 
+There is good reason to believe that Brexit might produce winner-loser effects similar to those found in conventional elections---it was a highly salient referendum, evidenced by a relatively high turnout (71\%) and intense campaigning on both sides \parencite{hobolt2016brexit}. Following the literature on the winner-loser gap, I expect a pronounced increase in satisfaction with democracy among the winners of the Brexit referendum, not unlike those found among the winners of conventional elections. Conversely, I expect that the losers of Brexit will show decreased levels of democratic satisfactions following the referendum. 
 
-Following the literature on the winner-loser gap, I expect a pronounced increase in satisfaction with democracy among the winners of the Brexit referendum, not unlike those found among the winners of conventional elections. Conversely, I expect that the losers of Brexit will show decreased levels of democratic satisfactions following the referendum. In the context of a referendum, the utility maximization perspective found in \textcite{anderson2005losers} seems especially relevant. Relative to conventional elections, the referendum was such that Leavers had a far greater chance of seeing their preferred policy realized. Moreover, given the high stakes and polarized nature of the referendum, it is reasonable to expect some degree of ``emotional payoff'' associated with winning \parencite{blais2017election}. This leads to the following hypotheses:
+While electoral legitimacy hinges on the fairness of elections, it has also been found that the experience winning or losing itself strongly shapes perceptions of fairness and legitimacy \parencite{sances2015partisanship, nadeau1993accepting}. I expect such a process to be at play with respect to Brexit. Relative to pre-Brexit expectations about how fairly the referendum would be conducted, I expect that Leave voters will have more faith in the process because it delivered their desired outcome. Alternatively, the experience of losing the Brexit referendum may lead Remain voters to rethink their evaluations of the legitimacy of the process.
 
-\vspace{12pt}
-\singlespacing
-\begin{enumerate}[label= \textbf{Hypothesis 1a (H1a)},  leftmargin=*]
-  \item \textit{Voting for the winning outcome (withdrawal of the UK from the EU) in the Brexit referendum will lead to higher levels of democratic satisfaction relative to pre-Brexit satisfaction.}
-\end{enumerate}
+Works in economic voting have emphasize that while economic perceptions are indeed shaped by objective economic conditions, they are to some degree endogenous to partisan preference \parencite{lewis2013vp, evans2006political}. Because this paper examines the attitudinal consequences of Brexit, as opposed to determinants of Brexit voting, I will first examine how outcome favourability shaped prospective economic evaluations, both sociotropic and egocentric. At the same time, because a number of survey waves were administered several months after the decision to leave the EU, winner-loser status may also affect respondents' retrospective evaluations of the economy. 
 
-\begin{enumerate}[label= \textbf{Hypothesis 1b (H1b)},  leftmargin=*]
-  \item \textit{Voting for the losing outcome (withdrawal of the UK from the EU) in the Brexit referendum will lead to lower levels of democratic satisfaction relative to pre-Brexit satisfaction.}
-\end{enumerate}
-\doublespacing
-
-While electoral legitimacy hinges on the fairness of elections, it has also been found that the experience winning or losing itself strongly shapes perceptions of fairness and legitimacy \parencite{sances2015partisanship}. \textcite{nadeau1993accepting} claim that  ``[w]inners are likely to be overwhelmingly satisfied with a process through which the party or candidate they voted for gets elected. Losers' support is less obvious. That support requires the recognition of the legitimacy of a procedure that has produced an outcome deemed to be undesirable.'' Although the outcome is different (that is, Brexit was about implementing a policy rather than electing a government), I expect a similar logic to be at play with respect to Brexit. Relative to pre-Brexit expectations about how fairly the referendum would be conducted, I expect that Leave voters will have more faith in the process because it delivered their desired outcome. Alternatively, the experience of losing the Brexit referendum may lead Remain voters to rethink their evaluations of the legitimacy of the process.
-
-
-\vspace{12pt}
-\singlespacing
-\begin{enumerate}[label= \textbf{Hypothesis 2 (H2)},  leftmargin=*]
-  \item \textit{Voting for the losing outcome will have a negative impact on perceptions that the referendum was conducted fairly, relative to pre-Brexit expectations.}
-\end{enumerate}
-\doublespacing
-
-In the economic voting literature, it has been emphasized that, while economic perceptions are indeed shaped by objective economic conditions, they are to some degree endogenous to partisan preference \parencite{lewis2013vp}. In the British case, \textcite{evans2006political} find that prior political partisanship systematically influences economic perceptions, especially with respect to sociotropic retrospective evaluations. Because this paper examines the attitudinal consequences of Brexit, as opposed to determinants of Brexit voting, I will first examine how outcome favourability shaped prospective economic evaluations, both sociotropic and egocentric. At the same time, because a number of survey waves were administered several months after the decision to leave the EU, winner-loser status may also colour respondents' retrospective evaluations of the economy. 
-
-\vspace{12pt}
-\singlespacing
-\begin{enumerate}[label= \textbf{Hypothesis 3a (H3a)},  leftmargin=*]
-  \item \textit{Voting for the winning outcome will have a positive impact on prospective evaluations of the national economy, relative to pre-Brexit evaluations.}
-\end{enumerate}
-
-\begin{enumerate}[label= \textbf{Hypothesis 3b (H3b)},  leftmargin=*]
-  \item \textit{Voting for the losing outcome will have a negative impact on prospective evaluations of the national economy, relative to pre-Brexit evaluations.}
-\end{enumerate}
-
-\begin{enumerate}[label= \textbf{Hypothesis 3c (H3c)},  leftmargin=*]
-  \item \textit{Voting for the winning outcome will have a positive impact on retrospective evaluations of the national economy, relative to pre-Brexit evaluations.}
-\end{enumerate}
-
-\begin{enumerate}[label= \textbf{Hypothesis 3d (H3d)},  leftmargin=*]
-  \item \textit{Voting for the losing outcome will have a negative impact on retrospective evaluations of the national economy, relative to pre-Brexit evaluations.}
-\end{enumerate}
-
-\begin{enumerate}[label= \textbf{Hypothesis 3e (H3e)},  leftmargin=*]
-  \item \textit{Voting for the winning outcome will have a positive impact on prospective evaluations of one's personal economic circumstances, relative to pre-Brexit evaluations.}
-\end{enumerate}
-
-\begin{enumerate}[label= \textbf{Hypothesis 3f (H3f)},  leftmargin=*]
-  \item \textit{Voting for the losing outcome will have a negative impact on prospective evaluations of one's personal economic circumstances, relative to pre-Brexit evaluations.}
-\end{enumerate}
-
-\doublespacing
-
-
-Lastly, I will examine Brexit's association with reported feelings of internal and external efficacy. For these hypotheses, some additional qualification is necessary. As described in the preceding section, the impact of referendums on political attitudes is often framed in theories of participatory democracy, which insist on a number of positive effects associated with participation, including increases in internal and external efficacy. For instance, participation may have an educative effect that increases the citizen's own sense of political competence \parencite{pateman1970participation, barber2003strong}. Participation may also contribute to more positive attitudes about the responsiveness of political authorities and the political system \parencite{finkel1985reciprocal}. Of course, according to participatory democratic theorists, it is through the continued and institutionalized practice of direct democracy that civic norms and attitudes will be reshaped. These effects may be limited in a one-off referendum like Brexit. Moreover, I will rely on a relatively short-term time period of ten months to assess these relationships. With these caveats in mind, I will necessarily remain agnostic on both the long-term impact of participation \textit{per se} on feelings of efficacy as well as the impact of Brexit on Remainers' political efficacy. Nonetheless, it cannot be overlooked that the referendum delivered Leavers their preferred outcome, which may have affected perceptions of government responsiveness. Moreover, as the decision was put directly to the people, Brexit may have encouraged citizens' to learn about the issue and thus affect how they view their own understanding of politics.\footnote{Although the fact that ``What does it mean to leave the EU?'' was the most searched-for question about the European Union in the UK \textit{after} the decision to leave is not a good indication that citizens were well-informed \parencite{selyukh2016after}.}
-
-\vspace{12pt}
-\singlespacing
-\begin{enumerate}[label= \textbf{Hypothesis 4a (H4a)},  leftmargin=*]
-  \item \textit{Voting for the winning outcome will have a positive impact on perceptions of \textit{external} efficacy.}
-\end{enumerate}
-\doublespacing
-
-\singlespacing
-\begin{enumerate}[label= \textbf{Hypothesis 4b (H4b)},  leftmargin=*]
-  \item \textit{Voting for the winning outcome will have a positive impact on perceptions of \textit{internal} efficacy.}
-\end{enumerate}
-\doublespacing
-
-\singlespacing
-\begin{enumerate}[label= \textbf{Hypothesis 4c (H4c)},  leftmargin=*]
-  \item \textit{Voting for the winning outcome will have a positive impact on political trust.}
-\end{enumerate}
-\doublespacing
-
-\begin{figure}[t]
-\caption{Average values among Leave and Remain voters across waves}
-\includegraphics[scale=0.22]{plot_trends.png}
-\label{fig:trends}
-\end{figure}
+Lastly, I will examine Brexit's association with reported feelings of internal and external efficacy. As described in the preceding section, the impact of referendums on political attitudes is often framed in theories of participatory democracy, which insist on a number of positive effects associated with participation, including increases in internal and external efficacy. For instance, participation may have an educative effect that increases the citizen's own sense of political competence \parencite{pateman1970participation, barber2003strong}. Participation may also contribute to more positive attitudes about the responsiveness of political authorities and the political system \parencite{finkel1985reciprocal}. Of course, according to participatory democratic theorists, it is through the continued and institutionalized practice of direct democracy that civic norms and attitudes will be reshaped. These effects may be limited in a one-off referendum like Brexit. Moreover, I will rely on a relatively short-term time period of ten months to assess these relationships. With these caveats in mind, it cannot be overlooked that the referendum delivered Leavers their preferred outcome, which may have affected perceptions of government responsiveness. Moreover, as the decision was put directly to the people, Brexit may have encouraged citizens' to learn about the issue and thus affect how they view their own understanding of politics.\footnote{Although the fact that ``What does it mean to leave the EU?'' was the most searched-for question about the European Union in the UK \textit{after} the decision to leave is not a good indication that citizens were well-informed \parencite{selyukh2016after}.}
 
 
 
@@ -223,65 +101,16 @@ Lastly, I will examine Brexit's association with reported feelings of internal a
 \doublespacing
 
 
-Data for this paper came from an internet panel study conducted from 2014-2017 as part of the British Election Study (BES) \parencite{bespanel}. These data are advantageous for examining the impact of the Brexit referendum on political attitudes because the same individuals were reinterviewed multiple times both before and after Brexit. The data were collected in thirteen waves spanning from February 2013 to June 2017. In each wave, around 30,000 respondents were interviewed. In total, only 17\% of respondents participated in all thirteen waves, though the vast majority completed at least two waves.\footnote{I have structured the data such that each observation is an individual during a given wave. Full information on the number of waves in the panel study as well as when they were conducted is available in Appendix \ref{paneldata}}
+Data for this paper came from an internet panel study conducted from 2014-2017 as part of the British Election Study (BES) \parencite{bespanel}. To examine changes in respondents' attitudes associated with the Brexit referendum, I draw on data collected from Wave 7 (April 14--May 4 2016) to Wave 11 (April 24--May 3).\footnote{The data were collected in thirteen waves spanning from February 2013 to June 2017. In each wave, around 30,000 respondents were interviewed. In total, only 17\% of respondents participated in all thirteen waves, though the vast majority completed at least two waves. I have structured the data such that each observation is an individual during a given wave.} Because my primary interest is in changes in respondents' attitudes that occurred as a result of Brexit,  It is necessary to restrict the data in this way because of the general elections that were held on May 5, 2015 and June 8, 2017. These elections likely produced winner-loser gaps of their own, thus excluding them from the analysis will produce cleaner estimates of the winner-loser gap with respect to Brexit. 
 
-Because my primary interest is in changes in respondents' attitudes that occurred as a result of Brexit, I will draw on data collected from Wave 7 (April 14--May 4 2016) to Wave 11 (April 24--May 3). It is necessary to restrict the data in this way because of the general elections that were held on May 5, 2015 and June 8, 2017. These elections likely produced winner-loser gaps of their own, thus excluding them from the analysis will produce cleaner estimates of the winner-loser gap with respect to Brexit. 
+I estimate a number of OLS regressions where the key independent variables are winner-loser status and wave of interview. Winner-loser status is coded as a dummy variable where 0 indicates an intention to vote remain and 1 indicates an intention to vote leave, measured prior to the referendum, in Waves 7 and 8.\footnote{Reported pre-Brexit vote intentions, as opposed to post-Brexit reported vote, are used to reduce the possibility of post-treatment bias. In the pre-Brexit vote intention questions respondents were asked if they were (a) planning to vote leave, (b) planning to vote remain, or (c) planning not vote. Another post-Brexit turnout question asked respondents if they voted in the referendum. Among respondents who answered both the pre-Brexit vote intention \textit{and} post-Brexit turnout questions, only 3.6 percent who reported that they would vote (remain or leave) indicated that they did not actually turn out. In other words, for pairwise complete cases, 96 percent of those who expressed a vote intention also said they voted in the referendum after the fact.} Wave of interview is also a binary variable that takes on a value of 1 for the post-Brexit wave of the survey. If the political attitudes of winners and losers change differentially from pre- to post-Brexit, we should expect to see a significant interaction between wave of interview and winner-loser status. 
 
-To test the hypotheses discussed above, I estimate a number of OLS regressions where the key independent variables are winner-loser status and wave of interview. Winner-loser status is coded as a dummy variable where 0 indicates an intention to vote remain and 1 indicates an intention to vote leave, measured prior to the referendum, in Waves 7 and 8. I use an indicator for pre-Brexit vote intention instead of post-Brexit reported vote so as to reduce the possibility of post-treatment bias---that is, to eliminate the possibility that respondents change their reported vote choice as a consequence of the referendum.\footnote{The pre-Brexit vote intention questions asked the respondents if they were (a) planning to vote leave, (b) planning to vote remain, or (c) planning not vote. Another post-Brexit turnout question asked respondents if they voted in the referendum. Among respondents who answered both the pre-Brexit vote intention \textit{and} post-Brexit turnout questions, only 3.6 percent who reported that they would vote (remain or leave) indicated that they did not actually turn out. In other words, for pairwise complete cases, 96 percent of those who expressed a vote intention also said they voted in the referendum after the fact.} This indicator included 3 options: vote to leave the EU, vote to remain in the EU, and would not vote. As I am interested in the first two categories, I do not take respondents who reported that they would not vote in the Brexit referendum into account.
-
-Wave of interview is also a binary variable that takes on a value of 1 for the post-Brexit wave of the survey. If the political attitudes of winners and losers change differentially from pre- to post-Brexit, we should expect to see a significant interaction between wave of interview and winner-loser status. In addition to these two primary independent variables and their interaction, I control for a number of factors known to be associated with political attitudes: income, age, age$^2$, education, ideology (left-right self-placement), attention to politics, party identification, and occupation. Additionally, because concerns over immigration and national identity clearly divided those in the Leave and Remain camps \parencite{hobolt2016brexit}, controls for both cultural and economic immigration attitudes are included. For variables that could plausibly change as a result of Brexit---ideology, income, attention to politics, party identification, and immigration attitudes---I use values from the pre-Brexit waves of the panel. All of these controls except for age and age$^2$ are recoded to range from 0 to 1, where wealthier, more right-wing, politically attentive, and more positive immigration attitudes take on higher values. Education is recoded as a dummy variable to indicate whether the respondent has received a post-secondary education. Lastly, occupation and party identification are represented by a set of dummy variables. To highlight the effect of the interaction between winner-loser status and Brexit, I do not present the effects of these controls in the main paper. Full models can be found in the Appendix \ref{shorttermfull}, \ref{6monthfull}, and \ref{10monthfull}.
-
- \begin{table}[t]
- \begin{small}
- \caption{Pre-Brexit descriptive statistics for Leave and Remain voters}
-\centering
-\begin{tabular}{lrrrrrrc}
-\\
-& \multicolumn{3}{c}{\textbf{Leave voters}} & \multicolumn{3}{c}{\textbf{Remain voters}} & \multirow{3}{70pt}{\centering \textbf{Difference of means}}\\
-
- \cmidrule[1pt](lr){2-4} \cmidrule[1pt](lr){5-7}
-Variable & Mean & SD & N & Mean & SD & n &\\ 
-
-\toprule[1.5pt]
-& \multicolumn{6}{c}{\textit{Control variables}} \\
-  Age & 52.91 & 14.99 & 142576 & 45.40 & 17.18 & 146512 & 7.51 \\ 
-  Attention to politics & 0.71 & 0.21 & 165856 & 0.72 & 0.20 & 183272 & -0.01 \\ 
-  Post-secondary education & 0.32 & 0.47 & 158432 & 0.56 & 0.50 & 176416 & -0.24 \\ 
-  Income & 0.38 & 0.24 & 103080 & 0.45 & 0.26 & 120816 & -0.08 \\ 
-  Left-right self placement & 0.59 & 0.21 & 127264 & 0.41 & 0.22 & 149528 & 0.19 \\ 
-  Female & 0.50 & 0.50 & 166080 & 0.52 & 0.50 & 183520 & -0.02 \\ 
-  Immigration attitudes  & 0.25 & 0.25 & 164296 & 0.62 & 0.27 & 180672 & -0.37 \\  
-    (cultural) & & & & & & & \\
-  Immigration attitudes  & 0.30 & 0.24 & 164152 & 0.63 & 0.24 & 179856 & -0.33 \\ 
-    (economic) & & & & & & & \\
-  Routine/semi-routine & 0.27 & 0.44 & 149376 & 0.17 & 0.38 & 155000 & 0.09 \\ 
-  occupation & & & & & & & \\
-  
-  & \multicolumn{6}{c}{\textit{Outcome variables}} \\
-  Satisfaction with democracy & 0.45 & 0.29 & 84332 & 0.46 & 0.29 & 90806 & -0.01 \\  
-  How fairly will/was  & 0.46 & 0.35 & 12977 & 0.69 & 0.31 & 13335 & -0.23 \\ 
-  Brexit (be) conducted? & & & & & & &\\
-  Politicians care about & 0.27 & 0.25 & 87552 & 0.37 & 0.26 & 93596 & -0.10 \\ 
-  people like me & & & & & & & \\
-  I understand the issues & 0.70 & 0.21 & 87448 & 0.71 & 0.21 & 93867 & -0.00 \\ 
-  facing this country & & & & & & & \\ 
-  Retrospective economic & 0.48 & 0.28 & 68181 & 0.48 & 0.26 & 72823 & 0.00 \\ 
-  Economy getting better & 0.48 & 0.27 & 74093 & 0.47 & 0.26 & 78050 & 0.01 \\
-  Risk of poverty & 0.39 & 0.33 & 73107 & 0.36 & 0.31 & 79589 & 0.03 \\ 
-  Trust in MPs & 0.32 & 0.26 & 73769 & 0.40 & 0.24 & 80279 & -0.09 \\  
-\toprule[1.5pt]
-\multicolumn{8}{l}{\scriptsize{All differences except for retrospective economic evaluations ($t = 0.996$, $p = 0.32$) significant at the $0.001$ level.}}
-\end{tabular}
-\end{small}
-\end{table}
-
-In each regression model, the dependent variable corresponds to one of the political attitudes or economic perceptions discussed above. Satisfaction with democracy is measured with a standard survey question that asks how satisfied respondents are with the way democracy works in the UK. To tap into questions of fairness, I combine two items that ask (1) how fairly the respondent thinks the Brexit referendum \textit{will be} conducted (asked in pre-Brexit waves) and (2) how fairly the respondent thinks the Brexit \textit{was} conducted (asked in post-Brexit waves). Sociotropic prospective economic evaluations are measured with a question that asks respondents the degree to which they think the economy is getting better or worse. Sociotropic retrospective economic evaluations are measured with a question that asked respondents how they think the general economic situation in the country has changed over the last 12 months. To gauge egocentric economic evaluations, I use a question in which respondents report the likelihood of not having enough money to cover daily living costs within the next 12 months.\footnote{While there are more standard measures of prospective sociotropic and egocentric evaluations in the BES---i.e. those commonly used in the economic voting literature, they were not asked in a sufficient number of panel waves and were thus not feasible to use.} To measure political trust, I use an item that asks respondents how much trust they have in MPs in general. Although this measure taps into only one facet of political trust, it is the most relevant indicator available in the BES. Lastly, external efficacy is measured with a survey item that ask the respondent how much they agree with the statement ``politicians don't care what people like me think'' and internal efficacy is measured with the respondents' agreement with the statement ``I have a pretty good understanding of the important political issues facing our country.'' While the BES contained a number of measures related to internal and external efficacy, these two measures were the most relevant with respect to referendums. To allow for the comparison of regression coefficients across models, the dependent variables are all recoded to vary between 0 and 1. Details of their original scales can be found in Appendix \ref{dvrangewording}.
 
 \begin{table}
 \begin{center}
 \caption{The short term impact of Brexit}
 \setlength{\tabcolsep}{0.1em}
-\scalebox{0.8}{
+\scalebox{0.7}{
 \begin{tabular}{l c c c c c c}
 \\
 \toprule[1.5pt]
@@ -323,7 +152,7 @@ Num. obs.                        & 28677          & 30707          & 28885      
 RMSE                             & 0.259          & 0.332          & 0.208          & 0.281          & 0.230          & 0.157          \\
 \toprule[1.5pt]
 \multicolumn{7}{l}{\scriptsize{$^{***}p<0.001$, $^{**}p<0.01$, $^*p<0.05$}} \\
-\multicolumn{7}{l}{\multirow{3}{500pt}{\footnotesize{\textit{Notes:} Table entries are OLS regression coefficients. Standard errors in parentheses, clustered by respondent. Estimates for income, gender, age, education, left-right self placement, party identification, occupation, attention to politics and immigration attitudes not included (see Appendix \ref{shorttermfull}). All dependent variables range from zero to one.}}} \\
+\multicolumn{7}{l}{\multirow{3}{500pt}{\footnotesize{\textit{Notes:} Table entries are OLS regression coefficients. Standard errors in parentheses, clustered by respondent. Estimates for income, gender, age, education, left-right self placement, party identification, occupation, attention to politics and immigration attitudes not included (see Appendix \ref{appendixtable3}). All dependent variables range from zero to one.}}} \\
 \end{tabular}
 }
 \label{table:shortterm}
@@ -382,7 +211,7 @@ Num. obs.                        & 25083          & 27268          & 25432      
 RMSE                             & 0.252          & 0.329          & 0.209          & 0.206          & 0.280          & 0.238          & 0.228          & 0.159          \\
 \toprule[1.5pt]
 \multicolumn{9}{l}{\scriptsize{$^{***}p<0.001$, $^{**}p<0.01$, $^*p<0.05$}} \\
-\multicolumn{9}{l}{\multirow{3}{650pt}{\footnotesize{\textit{Notes:} Table entries are OLS regression coefficients. Standard errors in parentheses, clustered by respondent. Estimates for income, gender, age, education, left-right self placement, party identification, occupation, attention to politics and immigration attitudes not included (see Appendix \ref{6monthfull}). All dependent variables range from zero to one.}}} \\
+\multicolumn{9}{l}{\multirow{3}{650pt}{\footnotesize{\textit{Notes:} Table entries are OLS regression coefficients. Standard errors in parentheses, clustered by respondent. Estimates for income, gender, age, education, left-right self placement, party identification, occupation, attention to politics and immigration attitudes not included (see Appendix \ref{appendixtable3}). All dependent variables range from zero to one.}}} \\
 \end{tabular}}
 \label{table:6month}
 \end{center}
@@ -438,11 +267,16 @@ Num. obs.                        & 25810          & 28045          & 26170      
 RMSE                             & 0.253          & 0.326          & 0.210          & 0.208          & 0.279          & 0.213          & 0.230          & 0.163          \\
 \hline
 \multicolumn{9}{l}{\scriptsize{$^{***}p<0.001$, $^{**}p<0.01$, $^*p<0.05$}} \\
-\multicolumn{9}{l}{\multirow{3}{650pt}{\footnotesize{\textit{Notes:} Table entries are OLS regression coefficients. Standard errors in parentheses, clustered by respondent. Estimates for income, gender, age, education, left-right self placement, party identification, occupation, attention to politics and immigration attitudes not included (see Appendix \ref{10monthfull}). All dependent variables range from zero to one.}}} \\
+\multicolumn{9}{l}{\multirow{3}{650pt}{\footnotesize{\textit{Notes:} Table entries are OLS regression coefficients. Standard errors in parentheses, clustered by respondent. Estimates for income, gender, age, education, left-right self placement, party identification, occupation, attention to politics and immigration attitudes not included (see Appendix \ref{appendixtable3}). All dependent variables range from zero to one.}}} \\
 \end{tabular}}
 \label{table:10month}
 \end{center}
 \end{table}
+
+
+In addition to these two primary independent variables and their interaction, I control for a number of factors known to be associated with political attitudes and economic perceptions: income, age, age$^2$, education, ideology (left-right self-placement), attention to politics, party identification, occupation, and immigration attitudes. For variables that could plausibly change as a result of Brexit---ideology, income, attention to politics, party identification, and immigration attitudes---I use values from the pre-Brexit waves of the panel. \footnote{All controls except for age and age$^2$ are recoded to range from 0 to 1, where wealthier, more right-wing, politically attentive, and more positive immigration attitudes take on higher values. Education is recoded as a dummy variable to indicate whether the respondent has received a post-secondary education. Occupation and party identification are represented by a set of dummy variables.} To highlight the effect of the interaction between winner-loser status and Brexit, I do not present the effects of these controls in the main paper. Full models can be found Appendix \ref{appendixshorttermfull}, \ref{appendix6monthfull}, and \ref{appendix10monthfull}.
+
+The dependent variable in each regression model corresponds to one of the political attitudes or economic perceptions discussed above. To allow for the comparison of regression coefficients across models, the dependent variables are all recoded to vary between 0 and 1. The wording and original scales of the outcome variable can be found in Appendix \ref{dvrangewording}.
 
 
 \singlespacing
@@ -450,22 +284,23 @@ RMSE                             & 0.253          & 0.326          & 0.210      
 \doublespacing
 
 
-Three sets of models are presented in this section to examine the effects of Brexit as well as the persistence of these effects into future waves. While all models draw on Wave 7 and 8 as a pre-Brexit baseline, I test for the same effects with progressively later waves of the survey. Accordingly, Table \ref{table:shortterm} draws on post-Brexit responses from Wave 9, administered for one month immediately after the referendum; Table \ref{table:6month} draws on responses from Wave 10, taken around six months after the referendum; and Table \ref{table:10month} uses responses from Wave 11, taken roughly 10 months after the referendum. The coefficients on the interaction between Brexit (post-Brexit waves of the survey) and Leave (winner-loser status) in each model represent the differential change between winners and losers from the pre- to post-Brexit period for the given dependent variable. These coefficients can be interpreted to represent the pre- to post-Brexit change associated with an intention to vote leave, relative to the effect for those who intended to vote remain \parencite{brambor2005understanding}. The Brexit coefficient is thus attitudinal changes associated with Brexit on Remainers.
+Three sets of models are presented in this section to examine the effects of Brexit as well as the persistence of these effects into future waves. While all models draw on Wave 7 and 8 as a pre-Brexit baseline, I test for the same effects with progressively later waves of the survey. In all the models, the coefficients on the interaction between Brexit (post-Brexit waves of the survey) and Leave (winner-loser status) represent the differential change between winners and losers from the pre- to post-Brexit period for the given dependent variable. These coefficients can be interpreted to represent the pre- to post-Brexit change associated with an intention to vote leave, relative to the effect for those who intended to vote remain \parencite{brambor2005understanding}. The Brexit coefficient is thus attitudinal changes associated with Brexit on Remainers.
 
+Table \ref{table:shortterm} draws on post-Brexit responses from Wave 9, administered for one month immediately after the referendum.\footnote{Table \ref{table:shortterm} excludes Trust in MPs and retrospective economic evaluations as these questions were not asked in Wave 9. In addition, perceptions of the fairness of the referendum draw on pre-Brexit responses from Wave 7, as this question was not asked in Wave 8.} Strong differential effects can be observed with respect to satisfaction with democracy  (column 1, $\beta = 0.177$, $SE = 0.007$), prospective national economic evaluations (column 3, $\beta = 0.189$, $SE = 0.007$) and, most notably, perceptions that the referendum was conducted fairly (column 2, $\beta = 0.409$, $SE = 0.010$). The interaction effect for personal economic evaluations (column 4) is more modest and in the opposite direction of what was expected ($\beta = -0.063$, $SE = 0.014$). The effect for external efficacy (column 5) fails to reach conventional levels of statistical significance. Lastly, although there is a significant effect for internal efficacy (column 6), the substantive effects are negligible.\footnote{Given the large number of observations in each model, statistical significance on this minimal effect is not entirely meaningful.}
 
-I begin by examining the immediate shifts in attitudes associated with Brexit, presented in Table \ref{table:shortterm}.\footnote{Table \ref{table:shortterm} excludes Trust in MPs and retrospective economic evaluations as these questions were not asked in Wave 9. In addition, perceptions of the fairness of the referendum draw on pre-Brexit responses from Wave 7, as this question was not asked in Wave 8.} For these models, I use responses from Wave 8 (just before the referendum) and Wave 9 (administered for one month immediately following the referendum). Strong differential effects can be observed with respect to satisfaction with democracy  (column 1, $\beta = 0.177$, $SE = 0.007$), prospective national economic evaluations (column 3, $\beta = 0.189$, $SE = 0.007$) and, most notably, perceptions that the referendum was conducted fairly (column 2, $\beta = 0.409$, $SE = 0.010$). The interaction effect for personal economic evaluations (column 4) is more modest and in the opposite direction of what was expected ($\beta = -0.063$, $SE = 0.014$). The effect for external efficacy (column 5) fails to reach conventional levels of statistical significance. Lastly, although there is a significant effect for internal efficacy (column 6), the substantive effects are negligible. Moreover, given the large number of observations in each model, statistical significance on this minimal effect is not entirely meaningful. 
+From Table \ref{table:6month}, it is clear that many of the immediate effects of Brexit lasted into the second wave following the referendum. While the differential effect of Brexit on satisfaction with democracy (column 1, $\beta = 0.083$, $SE = 0.008$) and prospective sociotropic economic evaluations (column 3, $\beta = 0.156$, $SE = 0.007$) decreased, perceptions of fairness \textit{increased} by over 10 points ($\beta = 0.517$, $SE = 0.012$). In addition, retrospective sociotropic economic evaluations and trust in MPs are introduced in Table 2, as Wave 10 was the first time these questions were asked after Brexit. While the effect of retrospective sociotropic evaluations (column 4, $\beta = 0.129$, $SE = 0.011$) largely mirrors that of prospective sociotropic evaluations, I find a relatively minor effect for trust in MPs (column 7, $\beta = 0.066$, $SE = 0.016$). 
 
-From Table \ref{table:6month}, it is clear that many of the immediate effects of Brexit lasted into the second wave following the vote. While the differential effect of Brexit on satisfaction with democracy (column 1, $\beta = 0.083$, $SE = 0.008$) and prospective sociotropic economic evaluations (column 3, $\beta = 0.156$, $SE = 0.007$) decreased, perceptions of fairness \textit{increased} by over 10 points ($\beta = 0.517$, $SE = 0.012$). In addition, retrospective sociotropic economic evaluations and trust in MPs are introduced in Table 2, as Wave 10 was the first time these questions were asked after Brexit. While the effect of retrospective sociotropic evaluations (column 4, $\beta = 0.129$, $SE = 0.011$) largely mirrors that of prospective sociotropic evaluations, I find a relatively minor effect for trust in MPs (column 7, $\beta = 0.066$, $SE = 0.016$). 
-
-Lastly, ten months after Brexit, it appears that the effects still persist for satisfaction with democracy (column 1, $\beta = 0.128$, $SE = 0.008$), prospective sociotropic economic evaluations (column 3, $\beta = 0.171$, $SE = 0.007$), retrospective economic evaluations (column 4, $\beta = 0.133$, $SE = 0.011$) and perception of the referendum's fairness (column 2, $\beta = 0.546$, $SE = 0.012$). 
-
-While these results suggest a number of differential effects associated with Brexit, the coefficients on the interaction terms do not tell us the relative movement between winners and losers. As Figure \ref{fig:trends} suggests, the direction and strength of the Brexit's effect for Leavers relative to Remainers varies across different outcomes. For instance, the positive coefficients on satisfaction with democracy in Tables \ref{table:shortterm}, \ref{table:6month}, and \ref{table:10month}, may reflect losers becoming less satisfied relative to winners, winners become more satisfied than losers, or both. Along these lines, it is necessary to plot the marginal effects of Brexit for both winners and losers in order to assess my hypotheses. To this end, Figure \ref{fig:marg} graphically illustrates the average marginal effects of Brexit accompanied by their 99\% confidence intervals. 
+Lastly, ten months after Brexit (Table \ref{table:10month}), it appears that the effects still persist for satisfaction with democracy (column 1, $\beta = 0.128$, $SE = 0.008$), prospective sociotropic economic evaluations (column 3, $\beta = 0.171$, $SE = 0.007$), retrospective economic evaluations (column 4, $\beta = 0.133$, $SE = 0.011$) and perception of the referendum's fairness (column 2, $\beta = 0.546$, $SE = 0.012$). 
 
 \begin{figure}[t]
 \caption{OLS coefficients of Brexit on political attitudes by winner-loser status}
 \hbox{\hspace{-0.5cm} \includegraphics[scale=0.16]{margeff_plot.png}}
 \label{fig:marg}
 \end{figure}
+
+While these results suggest a number of differential effects associated with Brexit, the coefficients on the interaction terms do not tell us the relative movement between winners and losers.\footnote{As the figure in Appendix \ref{trendsplot} suggests, the direction and strength of the Brexit's effect for Leavers relative to Remainers varies across different outcomes.} For instance, the positive coefficients on satisfaction with democracy in Tables \ref{table:shortterm}, \ref{table:6month}, and \ref{table:10month}, may reflect losers becoming less satisfied relative to winners, winners become more satisfied than losers, or both. Along these lines, it is necessary to plot the marginal effects of Brexit for both winners and losers in order to assess the relative movement of political attitudes and economic perceptions associated with Brexit. To this end, Figure \ref{fig:marg} graphically illustrates the average marginal effects of Brexit accompanied by their 99\% confidence intervals. 
+
+
 
 The marginal effects of Brexit for winning and losing on satisfaction with the way democracy works in the UK largely confirm H1a and H1b---Brexit is associated with a moderate increase for winners and a roughly equivalent decrease for losers in satisfaction with democracy. While the effect is strongest immediately after the referendum, differences in democratic satisfaction appear to persist up to ten months after the referendum. This is in line with findings from the winner-loser gap literature that satisfaction with democracy is contingent on election outcomes \parencite{anderson2002winning, anderson2005losers, blais2007winning, bowler2002democracy}. Moreover, these results suggest that a similar process may be at play with respect to referendums. That said, it is difficult to say the exact mechanism that is producing this effect. Brexit was an extremely consequential decision accompanied by an intense campaign---the increase in democratic satisfaction associated with Brexit could plausibly be the result of emotional gratification, satisfaction with the policy implications of the result, or a combination of these and other factors. 
 
@@ -506,7 +341,56 @@ Turning to the implications of my findings, while a large body of literature has
 
 \section*{Appendix}
 
-\section{Panel Data Structure} \label{paneldata}
+\section{Pre-Brexit descriptive statistics for Leave and Remain voters} \label{prebrexitdescriptives}
+
+\begin{center}
+\begin{longtable}{lrrrrrrc}
+\\
+& \multicolumn{3}{c}{\textbf{Leave voters}} & \multicolumn{3}{c}{\textbf{Remain voters}} & \multirow{3}{70pt}{\centering \textbf{Difference of means}}\\
+
+ \cmidrule[1pt](lr){2-4} \cmidrule[1pt](lr){5-7}
+Variable & Mean & SD & N & Mean & SD & n &\\ 
+
+\toprule[1.5pt]
+& \multicolumn{6}{c}{\textit{Control variables}} \\
+  Age & 52.91 & 14.99 & 142576 & 45.40 & 17.18 & 146512 & 7.51 \\ 
+  Attention to politics & 0.71 & 0.21 & 165856 & 0.72 & 0.20 & 183272 & -0.01 \\ 
+  Post-secondary education & 0.32 & 0.47 & 158432 & 0.56 & 0.50 & 176416 & -0.24 \\ 
+  Income & 0.38 & 0.24 & 103080 & 0.45 & 0.26 & 120816 & -0.08 \\ 
+  Left-right self placement & 0.59 & 0.21 & 127264 & 0.41 & 0.22 & 149528 & 0.19 \\ 
+  Female & 0.50 & 0.50 & 166080 & 0.52 & 0.50 & 183520 & -0.02 \\ 
+  Immigration attitudes  & 0.25 & 0.25 & 164296 & 0.62 & 0.27 & 180672 & -0.37 \\  
+    (cultural) & & & & & & & \\
+  Immigration attitudes  & 0.30 & 0.24 & 164152 & 0.63 & 0.24 & 179856 & -0.33 \\ 
+    (economic) & & & & & & & \\
+  Routine/semi-routine & 0.27 & 0.44 & 149376 & 0.17 & 0.38 & 155000 & 0.09 \\ 
+  occupation & & & & & & & \\
+  
+  & \multicolumn{6}{c}{\textit{Outcome variables}} \\
+  Satisfaction with democracy & 0.45 & 0.29 & 84332 & 0.46 & 0.29 & 90806 & -0.01 \\  
+  How fairly will/was  & 0.46 & 0.35 & 12977 & 0.69 & 0.31 & 13335 & -0.23 \\ 
+  Brexit (be) conducted? & & & & & & &\\
+  Politicians care about & 0.27 & 0.25 & 87552 & 0.37 & 0.26 & 93596 & -0.10 \\ 
+  people like me & & & & & & & \\
+  I understand the issues & 0.70 & 0.21 & 87448 & 0.71 & 0.21 & 93867 & -0.00 \\ 
+  facing this country & & & & & & & \\ 
+  Retrospective economic & 0.48 & 0.28 & 68181 & 0.48 & 0.26 & 72823 & 0.00 \\ 
+  Economy getting better & 0.48 & 0.27 & 74093 & 0.47 & 0.26 & 78050 & 0.01 \\
+  Risk of poverty & 0.39 & 0.33 & 73107 & 0.36 & 0.31 & 79589 & 0.03 \\ 
+  Trust in MPs & 0.32 & 0.26 & 73769 & 0.40 & 0.24 & 80279 & -0.09 \\  
+\toprule[1.5pt]
+\multicolumn{8}{l}{\scriptsize{All differences except for retrospective economic evaluations ($t = 0.996$, $p = 0.32$) significant at the $0.001$ level.}}
+\end{longtable}
+\end{center}
+
+\section{Average values among Leave and Remain voters across waves} \label{trendsplot}
+
+\begin{figure}[H]
+\includegraphics[scale=0.22]{plot_trends.png}
+\end{figure}
+
+
+\section{Panel Data Structure}
 
 Below are the number of waves in the panel study as well as when they were conducted. As can be seen, Brexit is sandwiched between two elections, which might produce their own winner-loser effect or affect political attitudes in some other way. For this reason, the data are contrained to include only Waves 7 through 11. 
 
@@ -587,7 +471,7 @@ Politicians don't care what people like me think & 0.01 & 0.03 & 0.05 & 0.08 & 0
 \end{longtable}
 \end{center}
 
-\section{Depedent variables by panel wave}
+\section{Depedent variables by panel wave} \label{deppanelwave}
 As mentioned above, not all dependent variables were asked in all surveys. Find below a table which shows which dependent variables were asked in which waves. 
 
 \begin{center}
@@ -673,7 +557,7 @@ our country && strongly agree\\
 \end{center}
 
 
-\section{Table 1 with full controls} \label{shorttermfull}
+\section{Table 1 with full controls} \label{appendixshorttermfull}
 
 \begin{table}[H]
 \begin{center}
@@ -766,7 +650,7 @@ RMSE                             & 0.259          & 0.332          & 0.208      
 \end{center}
 \end{table}
 
-\section{Table 2 with full controls} \label{6monthfull}
+\section{Table 2 with full controls} \label{appendix6monthfull}
 
 \begin{table}[H]
 \begin{center}
@@ -859,7 +743,7 @@ RMSE                             & 0.252          & 0.329          & 0.209      
 \end{center}
 \end{table}
 
-\section{Table 3 with full controls} \label{10monthfull}
+\section{Table 3 with full controls} \label{appendix10monthfull}
 \begin{table}[H]
 \begin{center}
 \caption{Ten months after Brexit}

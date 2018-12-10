@@ -536,6 +536,28 @@
       \verb 10.1146/annurev-polisci-050316-092550
       \endverb
     \endentry
+    \entry{conservative2015manifesto}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=bfd9362cb702768c246906f9c3b9936a}{%
+           family={{Conservative Party}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{bfd9362cb702768c246906f9c3b9936a}
+      \strng{fullhash}{bfd9362cb702768c246906f9c3b9936a}
+      \strng{bibnamehash}{bfd9362cb702768c246906f9c3b9936a}
+      \strng{authorbibnamehash}{bfd9362cb702768c246906f9c3b9936a}
+      \strng{authornamehash}{bfd9362cb702768c246906f9c3b9936a}
+      \strng{authorfullhash}{bfd9362cb702768c246906f9c3b9936a}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Available at: \url{https://www.bond.org.uk/data/files/Blog/ConservativeManifesto2015.pdf}}
+      \field{title}{The Conservative Party 2015 Manifesto}
+      \field{year}{2015}
+    \endentry
     \entry{craig2006winners}{article}{}
       \name{author}{4}{}{%
         {{uniquename=0,uniquepart=base,hash=4ce05ae343c7ee319eb32298d0b1d61c}{%

@@ -44,13 +44,14 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>"POLI 632 MCCORMACK FINAL PAPER1".bcf</file>
+      <file>short_mccormack_632_paper.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>"POLI 632 MCCORMACK FINAL PAPER1".bbl</file>
+      <file>short_mccormack_632_paper.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
+      <file>blx-unicode.def</file>
       <file>blx-compat.def</file>
       <file>biblatex.def</file>
       <file>chicago-authordate.bbx</file>
@@ -66,22 +67,22 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>"POLI 632 MCCORMACK FINAL PAPER1"</infile>
+      <infile>short_mccormack_632_paper</infile>
     </cmdline>
     <input>
-      <file>"POLI 632 MCCORMACK FINAL PAPER1".bcf</file>
+      <file>short_mccormack_632_paper.bcf</file>
     </input>
     <output>
-      <file>"POLI 632 MCCORMACK FINAL PAPER1".bbl</file>
+      <file>short_mccormack_632_paper.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>"POLI 632 MCCORMACK FINAL PAPER1".bbl</file>
+      <file>short_mccormack_632_paper.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>"POLI 632 MCCORMACK FINAL PAPER1".bcf</file>
+      <file>short_mccormack_632_paper.bcf</file>
     </requires>
     <requires type="editable">
-      <file>/Users/andrewmccormack/Documents/political.bib</file>
+      <file>political.bib</file>
     </requires>
   </external>
 </requests>
